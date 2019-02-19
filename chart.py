@@ -160,11 +160,12 @@ class BaseRenderer:
             max_value = max(max(row['values']) for row in data['rows'])
         max_value = round_max(max_value)
 
+        legend = data.get('legend', [])
         content = ''
         content += self.render_axes(data['rows'], max_value)
-        if 'legend' in data:
-            content += self.render_legend(data['legend'])
-        content += self.render_rows(data['rows'], data['legend'], max_value)
+        if legend:
+            content += self.render_legend(legend)
+        content += self.render_rows(data['rows'], legend, max_value)
 
         return self.element(
             'svg',
