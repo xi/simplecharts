@@ -1,0 +1,15 @@
+{
+    "rows": [{
+        "label": "Apples",
+        "values": [3]
+    }, {
+        "label": "Oranges",
+        "values": [4]
+    }, {
+        "label": "Pears",
+        "values": [4]
+    }, {
+        "label": "Bananas",
+        "values": [5]
+    }]
+}

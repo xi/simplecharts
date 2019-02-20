@@ -1,0 +1,31 @@
+<svg viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+	<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
+	<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240.0">3</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">6</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="80.0" y="490.0">Apples</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="240.0" y="490.0">Oranges</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="400.0" y="490.0">Pears</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
+	<g>
+		<rect fill="#e41a1c" height="240.0" stroke="white" width="53.333333333333336" x="53.333333333333336" y="239.0">
+			<title>Apples: 3</title>
+		</rect>
+	</g>
+	<g>
+		<rect fill="#e41a1c" height="320.0" stroke="white" width="53.333333333333336" x="213.33333333333334" y="159.0">
+			<title>Oranges: 4</title>
+		</rect>
+	</g>
+	<g>
+		<rect fill="#e41a1c" height="320.0" stroke="white" width="53.333333333333336" x="373.33333333333337" y="159.0">
+			<title>Pears: 4</title>
+		</rect>
+	</g>
+	<g>
+		<rect fill="#e41a1c" height="400.0" stroke="white" width="53.333333333333336" x="533.3333333333334" y="79.0">
+			<title>Bananas: 5</title>
+		</rect>
+	</g>
+</svg>

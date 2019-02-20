@@ -1,0 +1,23 @@
+<svg viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+	<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
+	<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240.0">3</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">6</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="80.0" y="490.0">Apples</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="240.0" y="490.0">Oranges</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="400.0" y="490.0">Pears</text>
+	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
+	<g>
+		<rect fill="none" height="20" stroke="#333" width="180" x="460" y="-20" />
+		<rect fill="#e41a1c" height="10" width="10" x="464" y="-15.0" />
+		<text dominant-baseline="middle" fill="#333" x="478" y="-10.0">John</text>
+		<rect fill="#377eb8" height="10" width="10" x="528" y="-15.0" />
+		<text dominant-baseline="middle" fill="#333" x="542" y="-10.0">Jane</text>
+		<rect fill="#4daf4a" height="10" width="10" x="592" y="-15.0" />
+		<text dominant-baseline="middle" fill="#333" x="606" y="-10.0">Joe</text>
+	</g>
+	<path d="M 80.0,240.0 L 240.0,160.0 400.0,160.0 560.0,80.0" fill="none" stroke="#e41a1c" />
+	<path d="M 80.0,320.0 L 240.0,320.0 400.0,240.0 560.0,400.0" fill="none" stroke="#377eb8" />
+	<path d="M 80.0,80.0 L 240.0,240.0 400.0,160.0 560.0,320.0" fill="none" stroke="#4daf4a" />
+</svg>
