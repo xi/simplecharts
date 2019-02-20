@@ -7,7 +7,7 @@ setup(
     version='0.0.1',
     py_modules=['simplecharts'],
     url='https://github.com/xi/simplecharts',
-    license='GPLv3+',
+    license='MIT',
     classifiers=[
         'Topic :: Scientific/Engineering :: Visualization',
     ]
