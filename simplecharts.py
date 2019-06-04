@@ -78,10 +78,7 @@ class BaseRenderer:
         return self.element('path', d=d, **kwargs)
 
     def get_title(self, rows, legend, i, j):
-        key = rows[i]['label']
-        if legend:
-            key += ' - ' + legend[j]
-        return '{}: {}'.format(key, rows[i]['values'][j])
+        return rows[i]['values'][j]
 
     def render_axes(self, rows, max_value):
         s = ''

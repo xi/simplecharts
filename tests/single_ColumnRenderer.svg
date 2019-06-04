@@ -10,22 +10,22 @@
 	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
 	<g>
 		<rect fill="#e41a1c" height="240.0" stroke="white" width="53.333333333333336" x="53.333333333333336" y="239.0">
-			<title>Apples: 3</title>
+			<title>3</title>
 		</rect>
 	</g>
 	<g>
 		<rect fill="#e41a1c" height="320.0" stroke="white" width="53.333333333333336" x="213.33333333333334" y="159.0">
-			<title>Oranges: 4</title>
+			<title>4</title>
 		</rect>
 	</g>
 	<g>
 		<rect fill="#e41a1c" height="320.0" stroke="white" width="53.333333333333336" x="373.33333333333337" y="159.0">
-			<title>Pears: 4</title>
+			<title>4</title>
 		</rect>
 	</g>
 	<g>
 		<rect fill="#e41a1c" height="400.0" stroke="white" width="53.333333333333336" x="533.3333333333334" y="79.0">
-			<title>Bananas: 5</title>
+			<title>5</title>
 		</rect>
 	</g>
 </svg>
