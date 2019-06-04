@@ -71,6 +71,12 @@ class BaseRenderer:
         return self.element(
             'rect', content, x=x, y=y, width=width, height=height, **kwargs)
 
+    def circle(self, x, y, radius=3, title=None, **kwargs):
+        content = None
+        if title:
+            content = self.element('title', escape(str(title)))
+        return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
+
     def path(self, points, **kwargs):
         d = 'M {},{} L'.format(*points[0])
         for x, y in points[1:]:
@@ -78,34 +84,38 @@ class BaseRenderer:
         return self.element('path', d=d, **kwargs)
 
     def get_title(self, rows, legend, i, j):
-        key = rows[i]['label']
-        if legend:
-            key += ' - ' + legend[j]
-        return '{}: {}'.format(key, rows[i]['values'][j])
+        return rows[i]['values'][j]
 
     def render_axes(self, rows, max_value):
         s = ''
         s += self.line(0, 0, 0, self.height, self.ui_color)
         s += self.line(0, self.width, self.height, self.height, self.ui_color)
 
+        group = ''
         for y, value in [
             (self.height, 0),
             (self.height / 2, max_value // 2),
             (0, max_value),
         ]:
-            s += self.text(value, -self.char_padding, y, **{
+            group += self.text(value, -self.char_padding, y, **{
                 'dominant-baseline': 'middle',
                 'text-anchor': 'end',
             })
+        s += self.element('g', group, **{
+            'aria-hidden': 'true',
+        })
 
+        group = ''
         width = self.width / len(rows)
         y = self.height + self.y_labels / 2
         for i, row in enumerate(rows):
             x = (i + 0.5) * width
-            s += self.text(row['label'], x, y, **{
+            group += self.text(row['label'], x, y, **{
                 'dominant-baseline': 'middle',
                 'text-anchor': 'middle',
+                'role': 'columnheader',
             })
+        s += self.element('g', group, role='row')
 
         return s
 
@@ -140,7 +150,9 @@ class BaseRenderer:
             # margin
             x += self.char_width
 
-        return self.element('g', s)
+        return self.element('g', s, **{
+            'aria-hidden': 'true',
+        })
 
     def render_rows(self, rows, legend, max_value):
         raise NotImplementedError
@@ -166,6 +178,7 @@ class BaseRenderer:
         if legend:
             content += self.render_legend(legend)
         content += self.render_rows(data['rows'], legend, max_value)
+        content = self.element('g', content, role='table')
 
         return self.element(
             'svg',
@@ -181,9 +194,10 @@ class ColumnRenderer(BaseRenderer):
         n = len(rows)
         k = len(rows[0]['values'])
         width = self.width / n / (k + 2)
-        for i, row in enumerate(rows):
+        for j in range(k):
             group = ''
-            for j, value in enumerate(row['values']):
+            for i in range(n):
+                value = rows[i]['values'][j]
                 height = self.height * value / max_value
                 x = width * (i * (k + 2) + j + 1)
                 group += self.rect(
@@ -191,11 +205,12 @@ class ColumnRenderer(BaseRenderer):
                     self.height - height - 1,
                     width,
                     height,
-                    fill=self.get_color(j),
-                    stroke='white',
                     title=self.get_title(rows, legend, i, j),
+                    role='cell',
                 )
-            s += self.element('g', group)
+            s += self.element(
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
+            )
         return s
 
 
@@ -205,20 +220,27 @@ class StackedColumnRenderer(BaseRenderer):
     def render_rows(self, rows, legend, max_value):
         s = ''
         n = len(rows)
+        k = len(rows[0]['values'])
+        groups = ['' for j in range(k)]
         width = self.width / n
         for i, row in enumerate(rows):
-            group = ''
             y = self.height - 1
             for j, value in enumerate(row['values']):
                 height = self.height * value / max_value
                 x = width * (i + 0.5)
                 y -= height
-                group += self.rect(x - width / 6, y, width / 3, height, **{
-                    'fill': self.get_color(j),
-                    'stroke': 'white',
-                    'title': self.get_title(rows, legend, i, j),
-                })
-            s += self.element('g', group)
+                groups[j] += self.rect(
+                    x - width / 6,
+                    y,
+                    width / 3,
+                    height,
+                    title=self.get_title(rows, legend, i, j),
+                    role='cell',
+                )
+        for j, group in enumerate(groups):
+            s += self.element(
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
+            )
         return s
 
 
@@ -227,13 +249,25 @@ class LineRenderer(BaseRenderer):
         s = ''
         k = len(rows[0]['values'])
         width = self.width / len(rows)
+        dots = ''
         for j in range(k):
+            group = ''
             points = []
             for i, row in enumerate(rows):
                 x = width * (i + 0.5)
                 y = self.height * row['values'][j] / max_value
+                group += self.circle(
+                    x,
+                    self.height - y,
+                    title=self.get_title(rows, legend, i, j),
+                    role='cell',
+                )
                 points.append((x, self.height - y))
+            dots += self.element(
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
+            )
             s += self.path(points, fill='none', stroke=self.get_color(j))
+        s += dots
         return s
 
 
@@ -245,14 +279,26 @@ class StackedAreaRenderer(BaseRenderer):
         k = len(rows[0]['values'])
         width = self.width / len(rows)
         prev = [(width * (i + 0.5), 1) for i in range(len(rows))]
+        dots = ''
         for j in range(k):
+            group = ''
             points = []
             for i, row in enumerate(rows):
                 x = width * (i + 0.5)
                 y = self.height * row['values'][j] / max_value
+                group += self.circle(
+                    x,
+                    self.height - (prev[i][1] + y),
+                    title=self.get_title(rows, legend, i, j),
+                    role='cell',
+                )
                 points.append((x, prev[i][1] + y))
+            dots += self.element(
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
+            )
             s += self.path([
                 (x, self.height - y) for x, y in points + list(reversed(prev))
             ], fill=self.get_color(j), stroke='white')
             prev = points
+        s += dots
         return s
