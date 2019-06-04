@@ -184,9 +184,10 @@ class ColumnRenderer(BaseRenderer):
         n = len(rows)
         k = len(rows[0]['values'])
         width = self.width / n / (k + 2)
-        for i, row in enumerate(rows):
+        for j in range(k):
             group = ''
-            for j, value in enumerate(row['values']):
+            for i in range(n):
+                value = rows[i]['values'][j]
                 height = self.height * value / max_value
                 x = width * (i * (k + 2) + j + 1)
                 group += self.rect(
@@ -194,11 +195,11 @@ class ColumnRenderer(BaseRenderer):
                     self.height - height - 1,
                     width,
                     height,
-                    fill=self.get_color(j),
-                    stroke='white',
                     title=self.get_title(rows, legend, i, j),
                 )
-            s += self.element('g', group)
+            s += self.element(
+                'g', group, fill=self.get_color(j), stroke='white'
+            )
         return s
 
 
@@ -208,20 +209,26 @@ class StackedColumnRenderer(BaseRenderer):
     def render_rows(self, rows, legend, max_value):
         s = ''
         n = len(rows)
+        k = len(rows[0]['values'])
+        groups = ['' for j in range(k)]
         width = self.width / n
         for i, row in enumerate(rows):
-            group = ''
             y = self.height - 1
             for j, value in enumerate(row['values']):
                 height = self.height * value / max_value
                 x = width * (i + 0.5)
                 y -= height
-                group += self.rect(x - width / 6, y, width / 3, height, **{
-                    'fill': self.get_color(j),
-                    'stroke': 'white',
-                    'title': self.get_title(rows, legend, i, j),
-                })
-            s += self.element('g', group)
+                groups[j] += self.rect(
+                    x - width / 6,
+                    y,
+                    width / 3,
+                    height,
+                    title=self.get_title(rows, legend, i, j),
+                )
+        for j, group in enumerate(groups):
+            s += self.element(
+                'g', group, fill=self.get_color(j), stroke='white'
+            )
         return s
 
 

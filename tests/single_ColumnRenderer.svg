@@ -8,23 +8,17 @@
 	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="240.0" y="490.0">Oranges</text>
 	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="400.0" y="490.0">Pears</text>
 	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
-	<g>
-		<rect fill="#e41a1c" height="240.0" stroke="white" width="53.333333333333336" x="53.333333333333336" y="239.0">
+	<g fill="#e41a1c" stroke="white">
+		<rect height="240.0" width="53.333333333333336" x="53.333333333333336" y="239.0">
 			<title>3</title>
 		</rect>
-	</g>
-	<g>
-		<rect fill="#e41a1c" height="320.0" stroke="white" width="53.333333333333336" x="213.33333333333334" y="159.0">
+		<rect height="320.0" width="53.333333333333336" x="213.33333333333334" y="159.0">
 			<title>4</title>
 		</rect>
-	</g>
-	<g>
-		<rect fill="#e41a1c" height="320.0" stroke="white" width="53.333333333333336" x="373.33333333333337" y="159.0">
+		<rect height="320.0" width="53.333333333333336" x="373.33333333333337" y="159.0">
 			<title>4</title>
 		</rect>
-	</g>
-	<g>
-		<rect fill="#e41a1c" height="400.0" stroke="white" width="53.333333333333336" x="533.3333333333334" y="79.0">
+		<rect height="400.0" width="53.333333333333336" x="533.3333333333334" y="79.0">
 			<title>5</title>
 		</rect>
 	</g>
