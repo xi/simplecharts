@@ -71,6 +71,12 @@ class BaseRenderer:
         return self.element(
             'rect', content, x=x, y=y, width=width, height=height, **kwargs)
 
+    def circle(self, x, y, radius=3, title=None, **kwargs):
+        content = None
+        if title:
+            content = self.element('title', escape(str(title)))
+        return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
+
     def path(self, points, **kwargs):
         d = 'M {},{} L'.format(*points[0])
         for x, y in points[1:]:
@@ -224,13 +230,24 @@ class LineRenderer(BaseRenderer):
         s = ''
         k = len(rows[0]['values'])
         width = self.width / len(rows)
+        dots = ''
         for j in range(k):
+            group = ''
             points = []
             for i, row in enumerate(rows):
                 x = width * (i + 0.5)
                 y = self.height * row['values'][j] / max_value
+                group += self.circle(
+                    x,
+                    self.height - y,
+                    title=self.get_title(rows, legend, i, j),
+                )
                 points.append((x, self.height - y))
+            dots += self.element(
+                'g', group, fill=self.get_color(j), stroke='white'
+            )
             s += self.path(points, fill='none', stroke=self.get_color(j))
+        s += dots
         return s
 
 
@@ -242,14 +259,25 @@ class StackedAreaRenderer(BaseRenderer):
         k = len(rows[0]['values'])
         width = self.width / len(rows)
         prev = [(width * (i + 0.5), 1) for i in range(len(rows))]
+        dots = ''
         for j in range(k):
+            group = ''
             points = []
             for i, row in enumerate(rows):
                 x = width * (i + 0.5)
                 y = self.height * row['values'][j] / max_value
+                group += self.circle(
+                    x,
+                    self.height - (prev[i][1] + y),
+                    title=self.get_title(rows, legend, i, j),
+                )
                 points.append((x, prev[i][1] + y))
+            dots += self.element(
+                'g', group, fill=self.get_color(j), stroke='white'
+            )
             s += self.path([
                 (x, self.height - y) for x, y in points + list(reversed(prev))
             ], fill=self.get_color(j), stroke='white')
             prev = points
+        s += dots
         return s

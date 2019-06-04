@@ -20,4 +20,46 @@
 	<path d="M 80.0,240.0 L 240.0,160.0 400.0,160.0 560.0,80.0" fill="none" stroke="#e41a1c" />
 	<path d="M 80.0,320.0 L 240.0,320.0 400.0,240.0 560.0,400.0" fill="none" stroke="#377eb8" />
 	<path d="M 80.0,80.0 L 240.0,240.0 400.0,160.0 560.0,320.0" fill="none" stroke="#4daf4a" />
+	<g fill="#e41a1c" stroke="white">
+		<circle cx="80.0" cy="240.0" r="3">
+			<title>3</title>
+		</circle>
+		<circle cx="240.0" cy="160.0" r="3">
+			<title>4</title>
+		</circle>
+		<circle cx="400.0" cy="160.0" r="3">
+			<title>4</title>
+		</circle>
+		<circle cx="560.0" cy="80.0" r="3">
+			<title>5</title>
+		</circle>
+	</g>
+	<g fill="#377eb8" stroke="white">
+		<circle cx="80.0" cy="320.0" r="3">
+			<title>2</title>
+		</circle>
+		<circle cx="240.0" cy="320.0" r="3">
+			<title>2</title>
+		</circle>
+		<circle cx="400.0" cy="240.0" r="3">
+			<title>3</title>
+		</circle>
+		<circle cx="560.0" cy="400.0" r="3">
+			<title>1</title>
+		</circle>
+	</g>
+	<g fill="#4daf4a" stroke="white">
+		<circle cx="80.0" cy="80.0" r="3">
+			<title>5</title>
+		</circle>
+		<circle cx="240.0" cy="240.0" r="3">
+			<title>3</title>
+		</circle>
+		<circle cx="400.0" cy="160.0" r="3">
+			<title>4</title>
+		</circle>
+		<circle cx="560.0" cy="320.0" r="3">
+			<title>2</title>
+		</circle>
+	</g>
 </svg>
