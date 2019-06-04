@@ -91,24 +91,31 @@ class BaseRenderer:
         s += self.line(0, 0, 0, self.height, self.ui_color)
         s += self.line(0, self.width, self.height, self.height, self.ui_color)
 
+        group = ''
         for y, value in [
             (self.height, 0),
             (self.height / 2, max_value // 2),
             (0, max_value),
         ]:
-            s += self.text(value, -self.char_padding, y, **{
+            group += self.text(value, -self.char_padding, y, **{
                 'dominant-baseline': 'middle',
                 'text-anchor': 'end',
             })
+        s += self.element('g', group, **{
+            'aria-hidden': 'true',
+        })
 
+        group = ''
         width = self.width / len(rows)
         y = self.height + self.y_labels / 2
         for i, row in enumerate(rows):
             x = (i + 0.5) * width
-            s += self.text(row['label'], x, y, **{
+            group += self.text(row['label'], x, y, **{
                 'dominant-baseline': 'middle',
                 'text-anchor': 'middle',
+                'role': 'columnheader',
             })
+        s += self.element('g', group, role='row')
 
         return s
 
@@ -143,7 +150,9 @@ class BaseRenderer:
             # margin
             x += self.char_width
 
-        return self.element('g', s)
+        return self.element('g', s, **{
+            'aria-hidden': 'true',
+        })
 
     def render_rows(self, rows, legend, max_value):
         raise NotImplementedError
@@ -169,6 +178,7 @@ class BaseRenderer:
         if legend:
             content += self.render_legend(legend)
         content += self.render_rows(data['rows'], legend, max_value)
+        content = self.element('g', content, role='table')
 
         return self.element(
             'svg',
@@ -196,9 +206,10 @@ class ColumnRenderer(BaseRenderer):
                     width,
                     height,
                     title=self.get_title(rows, legend, i, j),
+                    role='cell',
                 )
             s += self.element(
-                'g', group, fill=self.get_color(j), stroke='white'
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
         return s
 
@@ -224,10 +235,11 @@ class StackedColumnRenderer(BaseRenderer):
                     width / 3,
                     height,
                     title=self.get_title(rows, legend, i, j),
+                    role='cell',
                 )
         for j, group in enumerate(groups):
             s += self.element(
-                'g', group, fill=self.get_color(j), stroke='white'
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
         return s
 
@@ -248,10 +260,11 @@ class LineRenderer(BaseRenderer):
                     x,
                     self.height - y,
                     title=self.get_title(rows, legend, i, j),
+                    role='cell',
                 )
                 points.append((x, self.height - y))
             dots += self.element(
-                'g', group, fill=self.get_color(j), stroke='white'
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
             s += self.path(points, fill='none', stroke=self.get_color(j))
         s += dots
@@ -277,10 +290,11 @@ class StackedAreaRenderer(BaseRenderer):
                     x,
                     self.height - (prev[i][1] + y),
                     title=self.get_title(rows, legend, i, j),
+                    role='cell',
                 )
                 points.append((x, prev[i][1] + y))
             dots += self.element(
-                'g', group, fill=self.get_color(j), stroke='white'
+                'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
             s += self.path([
                 (x, self.height - y) for x, y in points + list(reversed(prev))

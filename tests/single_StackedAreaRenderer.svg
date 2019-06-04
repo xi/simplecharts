@@ -1,26 +1,32 @@
 <svg viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
-	<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
-	<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
-	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
-	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240.0">3</text>
-	<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">6</text>
-	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="80.0" y="490.0">Apples</text>
-	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="240.0" y="490.0">Oranges</text>
-	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="400.0" y="490.0">Pears</text>
-	<text dominant-baseline="middle" fill="#333" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
-	<path d="M 80.0,239.0 L 240.0,159.0 400.0,159.0 560.0,79.0 560.0,479 400.0,479 240.0,479 80.0,479" fill="#e41a1c" stroke="white" />
-	<g fill="#e41a1c" stroke="white">
-		<circle cx="80.0" cy="239.0" r="3">
-			<title>3</title>
-		</circle>
-		<circle cx="240.0" cy="159.0" r="3">
-			<title>4</title>
-		</circle>
-		<circle cx="400.0" cy="159.0" r="3">
-			<title>4</title>
-		</circle>
-		<circle cx="560.0" cy="79.0" r="3">
-			<title>5</title>
-		</circle>
+	<g role="table">
+		<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
+		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+		<g aria-hidden="true">
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240.0">3</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">6</text>
+		</g>
+		<g role="row">
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80.0" y="490.0">Apples</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="240.0" y="490.0">Oranges</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400.0" y="490.0">Pears</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
+		</g>
+		<path d="M 80.0,239.0 L 240.0,159.0 400.0,159.0 560.0,79.0 560.0,479 400.0,479 240.0,479 80.0,479" fill="#e41a1c" stroke="white" />
+		<g fill="#e41a1c" role="row" stroke="white">
+			<circle cx="80.0" cy="239.0" r="3" role="cell">
+				<title>3</title>
+			</circle>
+			<circle cx="240.0" cy="159.0" r="3" role="cell">
+				<title>4</title>
+			</circle>
+			<circle cx="400.0" cy="159.0" r="3" role="cell">
+				<title>4</title>
+			</circle>
+			<circle cx="560.0" cy="79.0" r="3" role="cell">
+				<title>5</title>
+			</circle>
+		</g>
 	</g>
 </svg>
