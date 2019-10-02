@@ -1,10 +1,15 @@
+import os
+
 from setuptools import setup
+
+README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 
 setup(
     name='simplecharts',
     version='0.0.1',
     description='SVG charts without dependencies',
+    long_description=README,
     url='https://github.com/xi/simplecharts',
     author='Tobias Bengfort',
     author_email='tobias.bengfort@posteo.de',
