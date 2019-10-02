@@ -1,12 +1,14 @@
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 setup(
     name='simplecharts',
-    description='SVG charts without dependencies',
     version='0.0.1',
-    py_modules=['simplecharts'],
+    description='SVG charts without dependencies',
     url='https://github.com/xi/simplecharts',
+    author='Tobias Bengfort',
+    author_email='tobias.bengfort@posteo.de',
+    py_modules=['simplecharts'],
     license='MIT',
     classifiers=[
         'Topic :: Scientific/Engineering :: Visualization',
