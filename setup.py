@@ -7,7 +7,7 @@ README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 setup(
     name='simplecharts',
-    version='0.0.1',
+    version='0.0.2',
     description='SVG charts without dependencies',
     long_description=README,
     url='https://github.com/xi/simplecharts',
