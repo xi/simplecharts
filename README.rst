@@ -1,14 +1,24 @@
 Features
 ========
 
--   no big dependencies
+-   no external dependencies
 -   produces clean SVG
 -   available charts: grouped columns, stacked columns, lines, stacked areas
+
+Limitations
+===========
+
+-   not interactive
+-   not configurable
+-   maximum of 6 colors
+-   no wrapping for long labels
 
 Usage
 =====
 
 .. code:: python
+
+    from simplecharts import StackedColumnRenderer
 
     renderer = StackedColumnRenderer()
     data = {
