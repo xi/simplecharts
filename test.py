@@ -35,6 +35,12 @@ def run_test(key, renderer):
             print('generated', svg)
 
 
+def test_round_max(i, expected):
+    actual = simplecharts.round_max(i)
+    msg = 'round_max({}) == {} != {}'.format(i, actual, expected)
+    assert actual == expected, msg
+
+
 for fn in os.listdir(DIR):
     if fn.endswith('.json'):
         key = fn[:-5]
@@ -42,3 +48,7 @@ for fn in os.listdir(DIR):
         run_test(key, simplecharts.StackedColumnRenderer())
         run_test(key, simplecharts.LineRenderer())
         run_test(key, simplecharts.StackedAreaRenderer())
+
+test_round_max(10, 20)
+test_round_max(9, 10)
+test_round_max(9000, 10000)
