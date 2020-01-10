@@ -1,3 +1,6 @@
+import argparse
+import csv
+import sys
 from xml.sax.saxutils import escape
 
 COLORS = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
@@ -302,3 +305,35 @@ class StackedAreaRenderer(BaseRenderer):
             prev = points
         s += dots
         return s
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        'read CSV from stdin and write SVG to stdout'
+    )
+    parser.add_argument('-r', '--renderer', choices=[
+        'column', 'stacked-column', 'line', 'stacked-area'
+    ], default='line')
+    args = parser.parse_args()
+
+    cls = {
+        'column': ColumnRenderer,
+        'stacked-column': StackedColumnRenderer,
+        'line': LineRenderer,
+        'stacked-area': StackedAreaRenderer,
+    }[args.renderer]
+
+    reader = csv.reader(sys.stdin)
+    data = {
+        'rows': [],
+        'legend': next(reader)[1:],
+    }
+    for row in reader:
+        data['rows'].append({
+            'label': row[0],
+            'values': [float(i) for i in row[1:]],
+        })
+
+    renderer = cls()
+    svg = renderer.render(data)
+    print(svg)

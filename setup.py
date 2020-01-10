@@ -15,6 +15,9 @@ setup(
     author_email='tobias.bengfort@posteo.de',
     py_modules=['simplecharts'],
     license='MIT',
+    entry_points={'console_scripts': [
+        'simplecharts=simplecharts:main',
+    ]},
     classifiers=[
         'Topic :: Scientific/Engineering :: Visualization',
     ]
