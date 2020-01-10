@@ -52,3 +52,5 @@ for fn in os.listdir(DIR):
 test_round_max(10, 20)
 test_round_max(9, 10)
 test_round_max(9000, 10000)
+test_round_max(0.01, 0.02)
+test_round_max(0.003, 0.004)
