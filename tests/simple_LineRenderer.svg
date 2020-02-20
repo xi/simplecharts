@@ -22,9 +22,9 @@
 			<rect fill="#4daf4a" height="10" width="10" x="592" y="-15.0" />
 			<text dominant-baseline="middle" fill="#333" x="606" y="-10.0">Joe</text>
 		</g>
-		<polyline fill="none" points="80.0,240.0 240.0,160.0 400.0,160.0 560.0,80.0" stroke="#e41a1c" />
-		<polyline fill="none" points="80.0,320.0 240.0,320.0 400.0,240.0 560.0,400.0" stroke="#377eb8" />
-		<polyline fill="none" points="80.0,80.0 240.0,240.0 400.0,160.0 560.0,320.0" stroke="#4daf4a" />
+		<polyline fill="none" points="80,240 240,160 400,160 560,80" stroke="#e41a1c" />
+		<polyline fill="none" points="80,320 240,320 400,240 560,400" stroke="#377eb8" />
+		<polyline fill="none" points="80,80 240,240 400,160 560,320" stroke="#4daf4a" />
 		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="80.0" cy="240.0" r="3" role="cell">
 				<title>3</title>

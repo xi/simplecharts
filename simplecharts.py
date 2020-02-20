@@ -80,7 +80,7 @@ class BaseRenderer:
         return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
 
     def polyline(self, points, **kwargs):
-        d = ' '.join('{},{}'.format(*p) for p in points)
+        d = ' '.join('{:g},{:g}'.format(*p) for p in points)
         return self.element('polyline', points=d, **kwargs)
 
     def get_title(self, rows, legend, i, j):
@@ -163,7 +163,7 @@ class BaseRenderer:
         y = -(self.padding + self.y_legend)
         width = self.width + p + self.x_labels
         height = self.height + p + self.y_legend + self.y_legend
-        return '{} {} {} {}'.format(x, y, width, height)
+        return '{:g} {:g} {:g} {:g}'.format(x, y, width, height)
 
     def render(self, data):
         if self.stacked:

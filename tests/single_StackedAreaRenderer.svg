@@ -13,7 +13,7 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400.0" y="490.0">Pears</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
 		</g>
-		<polyline fill="#e41a1c" points="80.0,239.0 240.0,159.0 400.0,159.0 560.0,79.0 560.0,479 400.0,479 240.0,479 80.0,479" stroke="white" />
+		<polyline fill="#e41a1c" points="80,239 240,159 400,159 560,79 560,479 400,479 240,479 80,479" stroke="white" />
 		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="80.0" cy="239.0" r="3" role="cell">
 				<title>3</title>
