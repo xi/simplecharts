@@ -79,11 +79,9 @@ class BaseRenderer:
             content = self.element('title', escape(str(title)))
         return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
 
-    def path(self, points, **kwargs):
-        d = 'M {},{} L'.format(*points[0])
-        for x, y in points[1:]:
-            d += ' {},{}'.format(x, y)
-        return self.element('path', d=d, **kwargs)
+    def polyline(self, points, **kwargs):
+        d = ' '.join('{},{}'.format(*p) for p in points)
+        return self.element('polyline', points=d, **kwargs)
 
     def get_title(self, rows, legend, i, j):
         return rows[i]['values'][j]
@@ -268,7 +266,7 @@ class LineRenderer(BaseRenderer):
             dots += self.element(
                 'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
-            s += self.path(points, fill='none', stroke=self.get_color(j))
+            s += self.polyline(points, fill='none', stroke=self.get_color(j))
         s += dots
         return s
 
@@ -298,7 +296,7 @@ class StackedAreaRenderer(BaseRenderer):
             dots += self.element(
                 'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
-            s += self.path([
+            s += self.polyline([
                 (x, self.height - y) for x, y in points + list(reversed(prev))
             ], fill=self.get_color(j), stroke='white')
             prev = points

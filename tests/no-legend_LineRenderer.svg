@@ -13,9 +13,9 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400.0" y="490.0">Pears</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
 		</g>
-		<path d="M 80.0,240.0 L 240.0,160.0 400.0,160.0 560.0,80.0" fill="none" stroke="#e41a1c" />
-		<path d="M 80.0,320.0 L 240.0,320.0 400.0,240.0 560.0,400.0" fill="none" stroke="#377eb8" />
-		<path d="M 80.0,80.0 L 240.0,240.0 400.0,160.0 560.0,320.0" fill="none" stroke="#4daf4a" />
+		<polyline fill="none" points="80.0,240.0 240.0,160.0 400.0,160.0 560.0,80.0" stroke="#e41a1c" />
+		<polyline fill="none" points="80.0,320.0 240.0,320.0 400.0,240.0 560.0,400.0" stroke="#377eb8" />
+		<polyline fill="none" points="80.0,80.0 240.0,240.0 400.0,160.0 560.0,320.0" stroke="#4daf4a" />
 		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="80.0" cy="240.0" r="3" role="cell">
 				<title>3</title>
