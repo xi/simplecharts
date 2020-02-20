@@ -334,3 +334,7 @@ def main():
     renderer = cls()
     svg = renderer.render(data)
     print(svg)
+
+
+if __name__ == '__main__':
+    main()
