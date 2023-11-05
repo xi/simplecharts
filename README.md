@@ -37,4 +37,4 @@ data = {
 svg = renderer.render(data)
 ```
 
-![example](https://github.com/xi/simplecharts/blob/master/tests/simple_StackedColumnRenderer.svg)
+![example](https://github.com/xi/simplecharts/blob/main/tests/simple_StackedColumnRenderer.svg)
