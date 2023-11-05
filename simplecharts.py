@@ -47,16 +47,9 @@ class BaseRenderer:
             if '\n' in content:
                 lines = content.strip().split('\n')
                 content = '\n' + '\n'.join('\t' + l for l in lines) + '\n'
-            return '<{tag}{attrs}>{content}</{tag}>\n'.format(
-                tag=tag,
-                attrs=self.attrs(**attrs),
-                content=content,
-            )
+            return f'<{tag}{self.attrs(**attrs)}>{content}</{tag}>\n'
         else:
-            return '<{tag}{attrs} />\n'.format(
-                tag=tag,
-                attrs=self.attrs(**attrs),
-            )
+            return f'<{tag}{self.attrs(**attrs)} />\n'
 
     def line(self, x1, x2, y1, y2, color, **kwargs):
         return self.element(
@@ -163,7 +156,7 @@ class BaseRenderer:
         y = -(self.padding + self.y_legend)
         width = self.width + p + self.x_labels
         height = self.height + p + self.y_legend + self.y_legend
-        return '{:g} {:g} {:g} {:g}'.format(x, y, width, height)
+        return f'{x:g} {y:g} {width:g} {height:g}'
 
     def render(self, data):
         if self.stacked:

@@ -1,7 +1,7 @@
+import difflib
+import json
 import os
 import sys
-import json
-import difflib
 
 import simplecharts
 
@@ -9,19 +9,18 @@ DIR = 'tests'
 
 
 def render_error(actual, expected, name):
-    actual_lines = [line + '\n' for line in actual.split('\n')]
-    expected_lines = [line + '\n' for line in expected.split('\n')]
-    diff = difflib.unified_diff(
-        actual_lines, expected_lines, 'actual', name)
+    actual_lines = [f'{line}\n' for line in actual.split('\n')]
+    expected_lines = [f'{line}\n' for line in expected.split('\n')]
+    diff = difflib.unified_diff(actual_lines, expected_lines, 'actual', name)
     sys.stdout.writelines(diff)
 
 
 def run_test(key, renderer):
-    with open(os.path.join(DIR, key + '.json')) as fh:
+    with open(os.path.join(DIR, f'{key}.json')) as fh:
         data = json.load(fh)
         actual = renderer.render(data)
 
-    svg = '{}_{}.svg'.format(key, renderer.__class__.__name__)
+    svg = f'{key}_{renderer.__class__.__name__}.svg'
     path = os.path.join(DIR, svg)
 
     if os.path.exists(path):
@@ -37,7 +36,7 @@ def run_test(key, renderer):
 
 def test_round_max(i, expected):
     actual = simplecharts.round_max(i)
-    msg = 'round_max({}) == {} != {}'.format(i, actual, expected)
+    msg = f'round_max({i}) == {actual} != {expected}'
     assert actual == expected, msg
 
 
