@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simplecharts"
+version = "0.0.2"
+description = "SVG charts without dependencies"
+readme = "README.rst"
+license = {text = "MIT"}
+keywords = ["svg", "charts"]
+authors = [
+    {name = "Tobias Bengfort", email = "tobias.bengfort@posteo.de"}
+]
+classifiers = [
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.urls]
+Homepage = "https://github.com/xi/simplecharts"
+
+[project.scripts]
+simplecharts = "simplecharts:main"
+
+[tool.setuptools]
+py-modules = ["simplecharts"]
