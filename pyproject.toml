@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "simplecharts"
 version = "0.0.2"
 description = "SVG charts without dependencies"
-readme = "README.rst"
+readme = "README.md"
 license = {text = "MIT"}
 keywords = ["svg", "charts"]
 authors = [
