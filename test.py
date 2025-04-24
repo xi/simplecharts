@@ -26,7 +26,7 @@ def run_test(key, renderer):
     if os.path.exists(path):
         with open(path) as fh:
             expected = fh.read()
-        if renderer.render(data) != expected:
+        if actual != expected:
             render_error(actual, expected, svg)
     else:
         with open(path, 'w') as fh:
