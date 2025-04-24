@@ -319,7 +319,7 @@ class StackedAreaRenderer(BaseRenderer):
 
 def main():
     parser = argparse.ArgumentParser(
-        'read CSV from stdin and write SVG to stdout'
+        description='read CSV from stdin and write SVG to stdout'
     )
     parser.add_argument('-r', '--renderer', choices=[
         'column', 'stacked-column', 'line', 'stacked-area'
