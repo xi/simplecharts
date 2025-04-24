@@ -156,7 +156,7 @@ class BaseRenderer:
         x = -(self.padding + self.x_labels)
         y = -(self.padding + self.y_legend)
         width = self.width + p + self.x_labels
-        height = self.height + p + self.y_legend + self.y_legend
+        height = self.height + p + self.y_labels + self.y_legend
         return f'{x:g} {y:g} {width:g} {height:g}'
 
     def render(self, data):
