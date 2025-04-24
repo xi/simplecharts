@@ -85,10 +85,15 @@ class BaseRenderer:
         s += self.line(0, 0, 0, self.height, self.ui_color)
         s += self.line(0, self.width, self.height, self.height, self.ui_color)
 
+        if isinstance(max_value, float):
+            half = max_value / 2
+        else:
+            half = max_value // 2
+
         group = ''
         for y, value in [
             (self.height, 0),
-            (self.height / 2, max_value // 2),
+            (self.height / 2, half),
             (0, max_value),
         ]:
             group += self.text(value, -self.char_padding, y, **{
