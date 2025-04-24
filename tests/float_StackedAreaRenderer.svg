@@ -1,0 +1,42 @@
+<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+	<g role="table">
+		<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
+		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+		<g aria-hidden="true">
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240.0">0.1</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">0.2</text>
+		</g>
+		<g role="row">
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160.0" y="490.0">Apples</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480.0" y="490.0">Oranges</text>
+		</g>
+		<polyline fill="#e41a1c" points="160,407 480,383 480,479 160,479" stroke="white" />
+		<polyline fill="#377eb8" points="160,359 480,335 480,383 160,407" stroke="white" />
+		<polyline fill="#4daf4a" points="160,239 480,263 480,335 160,359" stroke="white" />
+		<g fill="#e41a1c" role="row" stroke="white">
+			<circle cx="160.0" cy="407.0" r="3" role="cell">
+				<title>0.03</title>
+			</circle>
+			<circle cx="480.0" cy="383.0" r="3" role="cell">
+				<title>0.04</title>
+			</circle>
+		</g>
+		<g fill="#377eb8" role="row" stroke="white">
+			<circle cx="160.0" cy="359.0" r="3" role="cell">
+				<title>0.02</title>
+			</circle>
+			<circle cx="480.0" cy="335.0" r="3" role="cell">
+				<title>0.02</title>
+			</circle>
+		</g>
+		<g fill="#4daf4a" role="row" stroke="white">
+			<circle cx="160.0" cy="239.00000000000003" r="3" role="cell">
+				<title>0.05</title>
+			</circle>
+			<circle cx="480.0" cy="263.00000000000006" r="3" role="cell">
+				<title>0.03</title>
+			</circle>
+		</g>
+	</g>
+</svg>
