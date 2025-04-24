@@ -27,6 +27,7 @@ class BaseRenderer:
         self.colors = colors
         self.ui_color = ui_color
 
+        self.font_size = 16
         self.char_width = 10
         self.char_padding = 4
         self.x_labels = self.char_width * 5
@@ -178,6 +179,10 @@ class BaseRenderer:
             content,
             xmlns='http://www.w3.org/2000/svg',
             viewBox=self.get_view_box(),
+            **{
+                'font-size': self.font_size,
+                'font-family': 'sans-serif',
+            },
         )
 
 
