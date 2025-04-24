@@ -14,17 +14,17 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
 		</g>
 		<g aria-hidden="true">
-			<rect fill="none" height="20" stroke="#333" width="848" x="-208" y="-20" />
-			<rect fill="#e41a1c" height="10" width="10" x="-204" y="-15.0" />
-			<text dominant-baseline="middle" fill="#333" x="-190" y="-10.0">Monozygotic (431)</text>
-			<rect fill="#377eb8" height="10" width="10" x="-10" y="-15.0" />
-			<text dominant-baseline="middle" fill="#333" x="4" y="-10.0">Dizygotic (464)</text>
-			<rect fill="#4daf4a" height="10" width="10" x="164" y="-15.0" />
-			<text dominant-baseline="middle" fill="#333" x="178" y="-10.0">Trizygotic (0)</text>
-			<rect fill="#984ea3" height="10" width="10" x="328" y="-15.0" />
-			<text dominant-baseline="middle" fill="#333" x="342" y="-10.0">Quadrizygotic (0)</text>
-			<rect fill="#ff7f00" height="10" width="10" x="522" y="-15.0" />
-			<text dominant-baseline="middle" fill="#333" x="536" y="-10.0">Other (82)</text>
+			<rect fill="none" height="40" stroke="#333" width="530" x="110" y="-20" />
+			<rect fill="#e41a1c" height="10" width="10" x="114" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="128" y="-10.0">Monozygotic (431)</text>
+			<rect fill="#377eb8" height="10" width="10" x="308" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="322" y="-10.0">Dizygotic (464)</text>
+			<rect fill="#4daf4a" height="10" width="10" x="482" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="496" y="-10.0">Trizygotic (0)</text>
+			<rect fill="#984ea3" height="10" width="10" x="114" y="5.0" />
+			<text dominant-baseline="middle" fill="#333" x="128" y="10.0">Quadrizygotic (0)</text>
+			<rect fill="#ff7f00" height="10" width="10" x="308" y="5.0" />
+			<text dominant-baseline="middle" fill="#333" x="322" y="10.0">Other (82)</text>
 		</g>
 		<polyline fill="#e41a1c" points="80,443 240,431 400,431 560,419 560,479 400,479 240,479 80,479" stroke="white" />
 		<polyline fill="#377eb8" points="80,419 240,407 400,395 560,407 560,419 400,431 240,431 80,443" stroke="white" />

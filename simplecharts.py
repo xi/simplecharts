@@ -114,35 +114,50 @@ class BaseRenderer:
         return s
 
     def render_legend(self, legend):
-        s = ''
-
-        width = 2 * self.char_padding - self.char_width
+        rows = [[]]
+        width = 0
+        max_width = 0
         for label in legend:
-            width += self.char_width + self.char_padding  # square
-            width += len(label) * self.char_width  # text
-            width += self.char_width  # margin
+            w = (
+                self.char_width + self.char_padding  # square
+                + len(label) * self.char_width  # text
+                + self.char_width  # margin
+            )
+            if width + w > self.width:
+                rows.append([])
+                width = 0
+            rows[-1].append(label)
+            width += w
+            max_width = max(width, max_width)
 
-        x = self.width - width
+        max_width += 2 * self.char_padding - self.char_width
 
-        s += self.rect(x, -self.y_legend, width, self.y_legend, **{
-            'fill': 'none',
-            'stroke': self.ui_color,
-        })
-        x += self.char_padding
+        s = self.rect(
+            self.width - max_width,
+            -self.y_legend,
+            max_width,
+            self.y_legend * len(rows),
+            fill='none',
+            stroke=self.ui_color,
+        )
 
-        y = -self.y_legend / 2
-        for i, label in enumerate(legend):
-            # square
-            size = self.char_width
-            s += self.rect(x, y - size / 2, size, size, fill=self.get_color(i))
-            x += self.char_width + self.char_padding
-            # text
-            s += self.text(label, x, y, **{
-                'dominant-baseline': 'middle',
-            })
-            x += len(label) * self.char_width
-            # margin
-            x += self.char_width
+        i = 0
+        for j, row in enumerate(rows):
+            x = self.width - max_width + self.char_padding
+            y = (j - 0.5) * self.y_legend
+            for label in row:
+                # square
+                size = self.char_width
+                s += self.rect(x, y - size / 2, size, size, fill=self.get_color(i))
+                x += self.char_width + self.char_padding
+                # text
+                s += self.text(label, x, y, **{
+                    'dominant-baseline': 'middle',
+                })
+                x += len(label) * self.char_width
+                # margin
+                x += self.char_width
+                i += 1
 
         return self.element('g', s, **{
             'aria-hidden': 'true',
