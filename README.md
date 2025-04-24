@@ -37,4 +37,16 @@ data = {
 svg = renderer.render(data)
 ```
 
+You can also convert CSV on the command line:
+
+```sh
+$ simplecharts --renderer stacked-column <<EOF
+,John,Jane,Joe
+Apples,3,2,5
+Oranges,4,2,3
+Pears,4,3,4
+Bananas,5,1,2
+EOF
+```
+
 ![example](https://github.com/xi/simplecharts/blob/main/tests/simple_StackedColumnRenderer.svg)
