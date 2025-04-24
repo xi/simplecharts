@@ -1,0 +1,100 @@
+<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+	<g role="table">
+		<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
+		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+		<g aria-hidden="true">
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240.0">4</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">8</text>
+		</g>
+		<g role="row">
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80.0" y="490.0">Apples</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="240.0" y="490.0">Oranges</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400.0" y="490.0">Pears</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560.0" y="490.0">Bananas</text>
+		</g>
+		<g aria-hidden="true">
+			<rect fill="none" height="20" stroke="#333" width="848" x="-208" y="-20" />
+			<rect fill="#e41a1c" height="10" width="10" x="-204" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="-190" y="-10.0">Monozygotic (431)</text>
+			<rect fill="#377eb8" height="10" width="10" x="-10" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="4" y="-10.0">Dizygotic (464)</text>
+			<rect fill="#4daf4a" height="10" width="10" x="164" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="178" y="-10.0">Trizygotic (0)</text>
+			<rect fill="#984ea3" height="10" width="10" x="328" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="342" y="-10.0">Quadrizygotic (0)</text>
+			<rect fill="#ff7f00" height="10" width="10" x="522" y="-15.0" />
+			<text dominant-baseline="middle" fill="#333" x="536" y="-10.0">Other (82)</text>
+		</g>
+		<g fill="#e41a1c" role="row" stroke="white">
+			<rect height="180.0" role="cell" width="22.857142857142858" x="22.857142857142858" y="299.0">
+				<title>3</title>
+			</rect>
+			<rect height="240.0" role="cell" width="22.857142857142858" x="182.85714285714286" y="239.0">
+				<title>4</title>
+			</rect>
+			<rect height="240.0" role="cell" width="22.857142857142858" x="342.8571428571429" y="239.0">
+				<title>4</title>
+			</rect>
+			<rect height="300.0" role="cell" width="22.857142857142858" x="502.8571428571429" y="179.0">
+				<title>5</title>
+			</rect>
+		</g>
+		<g fill="#377eb8" role="row" stroke="white">
+			<rect height="120.0" role="cell" width="22.857142857142858" x="45.714285714285715" y="359.0">
+				<title>2</title>
+			</rect>
+			<rect height="120.0" role="cell" width="22.857142857142858" x="205.71428571428572" y="359.0">
+				<title>2</title>
+			</rect>
+			<rect height="180.0" role="cell" width="22.857142857142858" x="365.7142857142857" y="299.0">
+				<title>3</title>
+			</rect>
+			<rect height="60.0" role="cell" width="22.857142857142858" x="525.7142857142858" y="419.0">
+				<title>1</title>
+			</rect>
+		</g>
+		<g fill="#4daf4a" role="row" stroke="white">
+			<rect height="300.0" role="cell" width="22.857142857142858" x="68.57142857142857" y="179.0">
+				<title>5</title>
+			</rect>
+			<rect height="180.0" role="cell" width="22.857142857142858" x="228.57142857142858" y="299.0">
+				<title>3</title>
+			</rect>
+			<rect height="240.0" role="cell" width="22.857142857142858" x="388.57142857142856" y="239.0">
+				<title>4</title>
+			</rect>
+			<rect height="120.0" role="cell" width="22.857142857142858" x="548.5714285714286" y="359.0">
+				<title>2</title>
+			</rect>
+		</g>
+		<g fill="#984ea3" role="row" stroke="white">
+			<rect height="240.0" role="cell" width="22.857142857142858" x="91.42857142857143" y="239.0">
+				<title>4</title>
+			</rect>
+			<rect height="120.0" role="cell" width="22.857142857142858" x="251.42857142857144" y="359.0">
+				<title>2</title>
+			</rect>
+			<rect height="60.0" role="cell" width="22.857142857142858" x="411.42857142857144" y="419.0">
+				<title>1</title>
+			</rect>
+			<rect height="240.0" role="cell" width="22.857142857142858" x="571.4285714285714" y="239.0">
+				<title>4</title>
+			</rect>
+		</g>
+		<g fill="#ff7f00" role="row" stroke="white">
+			<rect height="360.0" role="cell" width="22.857142857142858" x="114.28571428571429" y="119.0">
+				<title>6</title>
+			</rect>
+			<rect height="240.0" role="cell" width="22.857142857142858" x="274.2857142857143" y="239.0">
+				<title>4</title>
+			</rect>
+			<rect height="300.0" role="cell" width="22.857142857142858" x="434.2857142857143" y="179.0">
+				<title>5</title>
+			</rect>
+			<rect height="120.0" role="cell" width="22.857142857142858" x="594.2857142857143" y="359.0">
+				<title>2</title>
+			</rect>
+		</g>
+	</g>
+</svg>
