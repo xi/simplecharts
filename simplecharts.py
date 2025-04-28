@@ -8,6 +8,8 @@ COLORS = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
 
 
 def round_max(value):
+    if value <= 0:
+        return 10
     tail = 10 ** math.floor(math.log(value, 10))
     head = int(value / tail) + 1
     if head & 1:

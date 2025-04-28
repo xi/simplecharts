@@ -1,0 +1,9 @@
+{
+    "rows": [{
+        "label": "Apples",
+        "values": [0, 0, 0]
+    }, {
+        "label": "Oranges",
+        "values": [0, 0, 0]
+    }]
+}
