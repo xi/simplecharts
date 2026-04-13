@@ -27,72 +27,72 @@
 			<text dominant-baseline="middle" fill="#333" x="322" y="10">Other (82)</text>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<rect height="36" role="cell" width="53.333333333333336" x="53.33333333333333" y="443">
+			<rect height="36" role="cell" width="53.3333" x="53.3333" y="443">
 				<title>3</title>
 			</rect>
-			<rect height="48" role="cell" width="53.333333333333336" x="213.33333333333334" y="431">
+			<rect height="48" role="cell" width="53.3333" x="213.3333" y="431">
 				<title>4</title>
 			</rect>
-			<rect height="48" role="cell" width="53.333333333333336" x="373.3333333333333" y="431">
+			<rect height="48" role="cell" width="53.3333" x="373.3333" y="431">
 				<title>4</title>
 			</rect>
-			<rect height="60" role="cell" width="53.333333333333336" x="533.3333333333334" y="419">
+			<rect height="60" role="cell" width="53.3333" x="533.3333" y="419">
 				<title>5</title>
 			</rect>
 		</g>
 		<g fill="#377eb8" role="row" stroke="white">
-			<rect height="24" role="cell" width="53.333333333333336" x="53.33333333333333" y="419">
+			<rect height="24" role="cell" width="53.3333" x="53.3333" y="419">
 				<title>2</title>
 			</rect>
-			<rect height="24" role="cell" width="53.333333333333336" x="213.33333333333334" y="407">
+			<rect height="24" role="cell" width="53.3333" x="213.3333" y="407">
 				<title>2</title>
 			</rect>
-			<rect height="36" role="cell" width="53.333333333333336" x="373.3333333333333" y="395">
+			<rect height="36" role="cell" width="53.3333" x="373.3333" y="395">
 				<title>3</title>
 			</rect>
-			<rect height="12" role="cell" width="53.333333333333336" x="533.3333333333334" y="407">
+			<rect height="12" role="cell" width="53.3333" x="533.3333" y="407">
 				<title>1</title>
 			</rect>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<rect height="60" role="cell" width="53.333333333333336" x="53.33333333333333" y="359">
+			<rect height="60" role="cell" width="53.3333" x="53.3333" y="359">
 				<title>5</title>
 			</rect>
-			<rect height="36" role="cell" width="53.333333333333336" x="213.33333333333334" y="371">
+			<rect height="36" role="cell" width="53.3333" x="213.3333" y="371">
 				<title>3</title>
 			</rect>
-			<rect height="48" role="cell" width="53.333333333333336" x="373.3333333333333" y="347">
+			<rect height="48" role="cell" width="53.3333" x="373.3333" y="347">
 				<title>4</title>
 			</rect>
-			<rect height="24" role="cell" width="53.333333333333336" x="533.3333333333334" y="383">
+			<rect height="24" role="cell" width="53.3333" x="533.3333" y="383">
 				<title>2</title>
 			</rect>
 		</g>
 		<g fill="#984ea3" role="row" stroke="white">
-			<rect height="48" role="cell" width="53.333333333333336" x="53.33333333333333" y="311">
+			<rect height="48" role="cell" width="53.3333" x="53.3333" y="311">
 				<title>4</title>
 			</rect>
-			<rect height="24" role="cell" width="53.333333333333336" x="213.33333333333334" y="347">
+			<rect height="24" role="cell" width="53.3333" x="213.3333" y="347">
 				<title>2</title>
 			</rect>
-			<rect height="12" role="cell" width="53.333333333333336" x="373.3333333333333" y="335">
+			<rect height="12" role="cell" width="53.3333" x="373.3333" y="335">
 				<title>1</title>
 			</rect>
-			<rect height="48" role="cell" width="53.333333333333336" x="533.3333333333334" y="335">
+			<rect height="48" role="cell" width="53.3333" x="533.3333" y="335">
 				<title>4</title>
 			</rect>
 		</g>
 		<g fill="#ff7f00" role="row" stroke="white">
-			<rect height="72" role="cell" width="53.333333333333336" x="53.33333333333333" y="239">
+			<rect height="72" role="cell" width="53.3333" x="53.3333" y="239">
 				<title>6</title>
 			</rect>
-			<rect height="48" role="cell" width="53.333333333333336" x="213.33333333333334" y="299">
+			<rect height="48" role="cell" width="53.3333" x="213.3333" y="299">
 				<title>4</title>
 			</rect>
-			<rect height="60" role="cell" width="53.333333333333336" x="373.3333333333333" y="275">
+			<rect height="60" role="cell" width="53.3333" x="373.3333" y="275">
 				<title>5</title>
 			</rect>
-			<rect height="24" role="cell" width="53.333333333333336" x="533.3333333333334" y="311">
+			<rect height="24" role="cell" width="53.3333" x="533.3333" y="311">
 				<title>2</title>
 			</rect>
 		</g>

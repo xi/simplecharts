@@ -13,7 +13,7 @@
 		</g>
 		<polyline fill="#e41a1c" points="160,407 480,383 480,479 160,479" stroke="white" />
 		<polyline fill="#377eb8" points="160,359 480,335 480,383 160,407" stroke="white" />
-		<polyline fill="#4daf4a" points="160,239.00000000000003 480,263.00000000000006 480,335 160,359" stroke="white" />
+		<polyline fill="#4daf4a" points="160,239 480,263 480,335 160,359" stroke="white" />
 		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="160" cy="407" r="3" role="cell">
 				<title>0.03</title>
@@ -31,10 +31,10 @@
 			</circle>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<circle cx="160" cy="239.00000000000003" r="3" role="cell">
+			<circle cx="160" cy="239" r="3" role="cell">
 				<title>0.05</title>
 			</circle>
-			<circle cx="480" cy="263.00000000000006" r="3" role="cell">
+			<circle cx="480" cy="263" r="3" role="cell">
 				<title>0.03</title>
 			</circle>
 		</g>

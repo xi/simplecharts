@@ -41,7 +41,7 @@ class BaseRenderer:
 
     def render_value(self, value):
         if isinstance(value, float):
-            value = str(value).rstrip('0').rstrip('.')
+            value = f'{value:.4f}'.rstrip('0').rstrip('.')
         return escape(str(value))
 
     def attrs(self, **kwargs):
