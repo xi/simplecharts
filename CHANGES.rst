@@ -1,3 +1,12 @@
+0.2.0 (2026-04-13)
+------------------
+
+-   tweak scaling of the y-axis
+-   support dark color scheme
+-   use (closed) polygon for stacked areas
+-   limit float precision
+
+
 0.1.1 (2025-02-28)
 ------------------
 
