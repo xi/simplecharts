@@ -10,8 +10,8 @@
 		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
 		<g aria-hidden="true">
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
-			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240">10</text>
-			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">20</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240">7</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">14</text>
 		</g>
 		<g role="row">
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80" y="490">Apples</text>
@@ -19,48 +19,48 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="490">Pears</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
 		</g>
-		<polygon fill="#e41a1c" points="80,407 240,383 400,383 560,359 560,479 400,479 240,479 80,479" stroke="white" />
-		<polygon fill="#377eb8" points="80,359 240,335 400,311 560,335 560,359 400,383 240,383 80,407" stroke="white" />
-		<polygon fill="#4daf4a" points="80,239 240,263 400,215 560,287 560,335 400,311 240,335 80,359" stroke="white" />
+		<polygon fill="#e41a1c" points="80,376.1429 240,341.8571 400,341.8571 560,307.5714 560,479 400,479 240,479 80,479" stroke="white" />
+		<polygon fill="#377eb8" points="80,307.5714 240,273.2857 400,239 560,273.2857 560,307.5714 400,341.8571 240,341.8571 80,376.1429" stroke="white" />
+		<polygon fill="#4daf4a" points="80,136.1429 240,170.4286 400,101.8571 560,204.7143 560,273.2857 400,239 240,273.2857 80,307.5714" stroke="white" />
 		<g fill="#e41a1c" role="row" stroke="white">
-			<circle cx="80" cy="407" r="3" role="cell">
+			<circle cx="80" cy="376.1429" r="3" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="240" cy="383" r="3" role="cell">
+			<circle cx="240" cy="341.8571" r="3" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="400" cy="383" r="3" role="cell">
+			<circle cx="400" cy="341.8571" r="3" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="359" r="3" role="cell">
+			<circle cx="560" cy="307.5714" r="3" role="cell">
 				<title>5</title>
 			</circle>
 		</g>
 		<g fill="#377eb8" role="row" stroke="white">
-			<circle cx="80" cy="359" r="3" role="cell">
+			<circle cx="80" cy="307.5714" r="3" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="240" cy="335" r="3" role="cell">
+			<circle cx="240" cy="273.2857" r="3" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="400" cy="311" r="3" role="cell">
+			<circle cx="400" cy="239" r="3" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="560" cy="335" r="3" role="cell">
+			<circle cx="560" cy="273.2857" r="3" role="cell">
 				<title>1</title>
 			</circle>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<circle cx="80" cy="239" r="3" role="cell">
+			<circle cx="80" cy="136.1429" r="3" role="cell">
 				<title>5</title>
 			</circle>
-			<circle cx="240" cy="263" r="3" role="cell">
+			<circle cx="240" cy="170.4286" r="3" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="400" cy="215" r="3" role="cell">
+			<circle cx="400" cy="101.8571" r="3" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="287" r="3" role="cell">
+			<circle cx="560" cy="204.7143" r="3" role="cell">
 				<title>2</title>
 			</circle>
 		</g>

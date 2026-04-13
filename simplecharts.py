@@ -7,14 +7,18 @@ from xml.sax.saxutils import escape
 COLORS = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
 
 
-def round_max(value):
+def round_max(value, headroom=1.1):
     if value <= 0:
         return 10
-    tail = 10 ** math.floor(math.log(value, 10))
-    head = int(value / tail) + 1
-    if head & 1:
-        head += 1
-    return head * tail
+    v = value * headroom / 2
+    tail = 10 ** math.floor(math.log(v, 10))
+    if v / tail < 1.5:
+        if tail >= 10:
+            tail //= 10
+        else:
+            tail /= 10
+    head = math.ceil(v / tail)
+    return head * tail * 2
 
 
 class BaseRenderer:

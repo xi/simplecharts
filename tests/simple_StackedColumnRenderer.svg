@@ -10,8 +10,8 @@
 		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
 		<g aria-hidden="true">
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
-			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240">10</text>
-			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">20</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240">7</text>
+			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">14</text>
 		</g>
 		<g role="row">
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80" y="490">Apples</text>
@@ -29,44 +29,44 @@
 			<text dominant-baseline="middle" fill="#333" x="606" y="-10">Joe</text>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<rect height="72" role="cell" width="53.3333" x="53.3333" y="407">
+			<rect height="102.8571" role="cell" width="53.3333" x="53.3333" y="376.1429">
 				<title>3</title>
 			</rect>
-			<rect height="96" role="cell" width="53.3333" x="213.3333" y="383">
+			<rect height="137.1429" role="cell" width="53.3333" x="213.3333" y="341.8571">
 				<title>4</title>
 			</rect>
-			<rect height="96" role="cell" width="53.3333" x="373.3333" y="383">
+			<rect height="137.1429" role="cell" width="53.3333" x="373.3333" y="341.8571">
 				<title>4</title>
 			</rect>
-			<rect height="120" role="cell" width="53.3333" x="533.3333" y="359">
+			<rect height="171.4286" role="cell" width="53.3333" x="533.3333" y="307.5714">
 				<title>5</title>
 			</rect>
 		</g>
 		<g fill="#377eb8" role="row" stroke="white">
-			<rect height="48" role="cell" width="53.3333" x="53.3333" y="359">
+			<rect height="68.5714" role="cell" width="53.3333" x="53.3333" y="307.5714">
 				<title>2</title>
 			</rect>
-			<rect height="48" role="cell" width="53.3333" x="213.3333" y="335">
+			<rect height="68.5714" role="cell" width="53.3333" x="213.3333" y="273.2857">
 				<title>2</title>
 			</rect>
-			<rect height="72" role="cell" width="53.3333" x="373.3333" y="311">
+			<rect height="102.8571" role="cell" width="53.3333" x="373.3333" y="239">
 				<title>3</title>
 			</rect>
-			<rect height="24" role="cell" width="53.3333" x="533.3333" y="335">
+			<rect height="34.2857" role="cell" width="53.3333" x="533.3333" y="273.2857">
 				<title>1</title>
 			</rect>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<rect height="120" role="cell" width="53.3333" x="53.3333" y="239">
+			<rect height="171.4286" role="cell" width="53.3333" x="53.3333" y="136.1429">
 				<title>5</title>
 			</rect>
-			<rect height="72" role="cell" width="53.3333" x="213.3333" y="263">
+			<rect height="102.8571" role="cell" width="53.3333" x="213.3333" y="170.4286">
 				<title>3</title>
 			</rect>
-			<rect height="96" role="cell" width="53.3333" x="373.3333" y="215">
+			<rect height="137.1429" role="cell" width="53.3333" x="373.3333" y="101.8571">
 				<title>4</title>
 			</rect>
-			<rect height="48" role="cell" width="53.3333" x="533.3333" y="287">
+			<rect height="68.5714" role="cell" width="53.3333" x="533.3333" y="204.7143">
 				<title>2</title>
 			</rect>
 		</g>

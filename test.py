@@ -48,8 +48,8 @@ for fn in os.listdir(DIR):
         run_test(key, simplecharts.LineRenderer())
         run_test(key, simplecharts.StackedAreaRenderer())
 
-test_round_max(10, 20)
+test_round_max(10, 12)
 test_round_max(9, 10)
 test_round_max(9000, 10000)
-test_round_max(0.01, 0.02)
+test_round_max(0.01, 0.012)
 test_round_max(0.003, 0.004)
