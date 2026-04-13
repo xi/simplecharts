@@ -39,9 +39,14 @@ class BaseRenderer:
     def get_color(self, i):
         return self.colors[i % len(self.colors)]
 
+    def render_value(self, value):
+        if isinstance(value, float):
+            value = str(value).rstrip('0').rstrip('.')
+        return escape(str(value))
+
     def attrs(self, **kwargs):
         return ''.join(
-            ' {}="{}"'.format(key.replace('_', '-'), escape(str(value)))
+            ' {}="{}"'.format(key.replace('_', '-'), self.render_value(value))
             for key, value in sorted(kwargs.items())
         )
 
@@ -76,7 +81,7 @@ class BaseRenderer:
         return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
 
     def polyline(self, points, **kwargs):
-        d = ' '.join('{:g},{:g}'.format(*p) for p in points)
+        d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)
         return self.element('polyline', points=d, **kwargs)
 
     def get_title(self, rows, legend, i, j):
