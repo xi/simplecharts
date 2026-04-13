@@ -91,6 +91,13 @@ class BaseRenderer:
     def get_title(self, rows, legend, i, j):
         return rows[i]['values'][j]
 
+    def render_style(self):
+        style = '@media (prefers-color-scheme: dark) {\n'
+        style += f'\t[fill="{self.ui_color}"] {{fill: white}}\n'
+        style += f'\t[stroke="{self.ui_color}"] {{stroke: white}}\n'
+        style += '}'
+        return self.element('style', style)
+
     def render_axes(self, rows, max_value):
         s = ''
         s += self.line(0, 0, 0, self.height, self.ui_color)
@@ -198,12 +205,13 @@ class BaseRenderer:
         max_value = round_max(max_value)
 
         legend = data.get('legend', [])
-        content = ''
-        content += self.render_axes(data['rows'], max_value)
+        inner = self.render_axes(data['rows'], max_value)
         if legend:
-            content += self.render_legend(legend)
-        content += self.render_rows(data['rows'], legend, max_value)
-        content = self.element('g', content, role='table')
+            inner += self.render_legend(legend)
+        inner += self.render_rows(data['rows'], legend, max_value)
+
+        content = self.render_style()
+        content += self.element('g', inner, role='table')
 
         return self.element(
             'svg',
