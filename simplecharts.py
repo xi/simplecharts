@@ -54,7 +54,7 @@ class BaseRenderer:
         if content:
             if '\n' in content:
                 lines = content.strip().split('\n')
-                content = '\n' + '\n'.join('\t' + l for l in lines) + '\n'
+                content = '\n' + '\n'.join('\t' + line for line in lines) + '\n'
             return f'<{tag}{self.attrs(**attrs)}>{content}</{tag}>\n'
         else:
             return f'<{tag}{self.attrs(**attrs)} />\n'
