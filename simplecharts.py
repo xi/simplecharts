@@ -84,6 +84,10 @@ class BaseRenderer:
         d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)
         return self.element('polyline', points=d, **kwargs)
 
+    def polygon(self, points, **kwargs):
+        d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)
+        return self.element('polygon', points=d, **kwargs)
+
     def get_title(self, rows, legend, i, j):
         return rows[i]['values'][j]
 
@@ -321,7 +325,7 @@ class StackedAreaRenderer(BaseRenderer):
             dots += self.element(
                 'g', group, fill=self.get_color(j), stroke='white', role='row'
             )
-            s += self.polyline([
+            s += self.polygon([
                 (x, self.height - y) for x, y in points + list(reversed(prev))
             ], fill=self.get_color(j), stroke='white')
             prev = points

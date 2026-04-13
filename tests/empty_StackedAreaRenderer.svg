@@ -11,9 +11,9 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160" y="490">Apples</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
 		</g>
-		<polyline fill="#e41a1c" points="160,479 480,479 480,479 160,479" stroke="white" />
-		<polyline fill="#377eb8" points="160,479 480,479 480,479 160,479" stroke="white" />
-		<polyline fill="#4daf4a" points="160,479 480,479 480,479 160,479" stroke="white" />
+		<polygon fill="#e41a1c" points="160,479 480,479 480,479 160,479" stroke="white" />
+		<polygon fill="#377eb8" points="160,479 480,479 480,479 160,479" stroke="white" />
+		<polygon fill="#4daf4a" points="160,479 480,479 480,479 160,479" stroke="white" />
 		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="160" cy="479" r="3" role="cell" />
 			<circle cx="480" cy="479" r="3" role="cell" />

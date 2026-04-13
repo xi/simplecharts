@@ -26,11 +26,11 @@
 			<rect fill="#ff7f00" height="10" width="10" x="308" y="5" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="10">Other (82)</text>
 		</g>
-		<polyline fill="#e41a1c" points="80,443 240,431 400,431 560,419 560,479 400,479 240,479 80,479" stroke="white" />
-		<polyline fill="#377eb8" points="80,419 240,407 400,395 560,407 560,419 400,431 240,431 80,443" stroke="white" />
-		<polyline fill="#4daf4a" points="80,359 240,371 400,347 560,383 560,407 400,395 240,407 80,419" stroke="white" />
-		<polyline fill="#984ea3" points="80,311 240,347 400,335 560,335 560,383 400,347 240,371 80,359" stroke="white" />
-		<polyline fill="#ff7f00" points="80,239 240,299 400,275 560,311 560,335 400,335 240,347 80,311" stroke="white" />
+		<polygon fill="#e41a1c" points="80,443 240,431 400,431 560,419 560,479 400,479 240,479 80,479" stroke="white" />
+		<polygon fill="#377eb8" points="80,419 240,407 400,395 560,407 560,419 400,431 240,431 80,443" stroke="white" />
+		<polygon fill="#4daf4a" points="80,359 240,371 400,347 560,383 560,407 400,395 240,407 80,419" stroke="white" />
+		<polygon fill="#984ea3" points="80,311 240,347 400,335 560,335 560,383 400,347 240,371 80,359" stroke="white" />
+		<polygon fill="#ff7f00" points="80,239 240,299 400,275 560,311 560,335 400,335 240,347 80,311" stroke="white" />
 		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="80" cy="443" r="3" role="cell">
 				<title>3</title>
