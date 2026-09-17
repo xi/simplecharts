@@ -23,7 +23,6 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="586.6667" y="490">5</text>
 		</g>
 		<g aria-hidden="true">
-			<rect fill="none" height="20" rx="2" ry="2" stroke="#333" width="166" x="474" y="-20" />
 			<rect fill="#377eb8" height="10" rx="2" ry="2" width="10" x="478" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="492" y="-10">linear</text>
 			<rect fill="#e41a1c" height="10" rx="2" ry="2" width="10" x="562" y="-15" />

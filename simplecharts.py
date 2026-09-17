@@ -162,15 +162,7 @@ class BaseRenderer:
 
         max_width += 2 * self.char_padding - self.char_width
 
-        s = self.rect(
-            self.width - max_width,
-            -self.y_legend,
-            max_width,
-            self.y_legend * len(rows),
-            fill='none',
-            stroke=self.ui_color,
-        )
-
+        s = ''
         i = 0
         for j, row in enumerate(rows):
             x = self.width - max_width + self.char_padding
