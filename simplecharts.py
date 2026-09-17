@@ -4,7 +4,7 @@ import math
 import sys
 from xml.sax.saxutils import escape
 
-COLORS = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
+COLORS = ['#377eb8', '#e41a1c', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
 
 
 def round_max(value, headroom=1.1):
@@ -37,7 +37,7 @@ class BaseRenderer:
         self.char_width = 10
         self.char_padding = 4
         self.x_labels = self.char_width * 5
-        self.y_labels = 20
+        self.y_labels = 28
         self.y_legend = 20
 
     def get_color(self, i):
@@ -71,22 +71,22 @@ class BaseRenderer:
         return self.element(
             'text', escape(str(s)), x=x, y=y, fill=self.ui_color, **kwargs)
 
-    def rect(self, x, y, width, height, title=None, **kwargs):
+    def rect(self, x, y, width, height, title=None, radius=2, **kwargs):
         content = None
         if title:
             content = self.element('title', escape(str(title)))
         return self.element(
-            'rect', content, x=x, y=y, width=width, height=height, **kwargs)
+            'rect', content, x=x, y=y, width=width, height=height, rx=radius, ry=radius, **kwargs)
 
-    def circle(self, x, y, radius=3, title=None, **kwargs):
+    def circle(self, x, y, radius=4, title=None, **kwargs):
         content = None
         if title:
             content = self.element('title', escape(str(title)))
         return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
 
-    def polyline(self, points, **kwargs):
+    def polyline(self, points, *, stroke_width=3, **kwargs):
         d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)
-        return self.element('polyline', points=d, **kwargs)
+        return self.element('polyline', points=d, stroke_width=stroke_width, **kwargs)
 
     def polygon(self, points, **kwargs):
         d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)
@@ -106,6 +106,9 @@ class BaseRenderer:
         s = ''
         s += self.line(0, 0, 0, self.height, self.ui_color)
         s += self.line(0, self.width, self.height, self.height, self.ui_color)
+        s += self.line(
+            0, self.width, self.height / 2, self.height / 2, self.ui_color, opacity=0.3
+        )
 
         if isinstance(max_value, float):
             half = max_value / 2
@@ -159,15 +162,7 @@ class BaseRenderer:
 
         max_width += 2 * self.char_padding - self.char_width
 
-        s = self.rect(
-            self.width - max_width,
-            -self.y_legend,
-            max_width,
-            self.y_legend * len(rows),
-            fill='none',
-            stroke=self.ui_color,
-        )
-
+        s = ''
         i = 0
         for j, row in enumerate(rows):
             x = self.width - max_width + self.char_padding

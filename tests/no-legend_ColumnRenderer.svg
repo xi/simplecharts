@@ -1,4 +1,4 @@
-<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 538" xmlns="http://www.w3.org/2000/svg">
 	<style>
 		@media (prefers-color-scheme: dark) {
 			[fill="#333"] {fill: white}
@@ -8,56 +8,57 @@
 	<g role="table">
 		<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
 		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+		<line opacity="0.3" stroke="#333" x1="0" x2="640" y1="240" y2="240" />
 		<g aria-hidden="true">
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240">3</text>
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">6</text>
 		</g>
 		<g role="row">
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80" y="490">Apples</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="240" y="490">Oranges</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="490">Pears</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80" y="494">Apples</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="240" y="494">Oranges</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="494">Pears</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="494">Bananas</text>
 		</g>
-		<g fill="#e41a1c" role="row" stroke="white">
-			<rect height="240" role="cell" width="32" x="32" y="239">
+		<g fill="#377eb8" role="row" stroke="white">
+			<rect height="240" role="cell" rx="2" ry="2" width="32" x="32" y="239">
 				<title>3</title>
 			</rect>
-			<rect height="320" role="cell" width="32" x="192" y="159">
+			<rect height="320" role="cell" rx="2" ry="2" width="32" x="192" y="159">
 				<title>4</title>
 			</rect>
-			<rect height="320" role="cell" width="32" x="352" y="159">
+			<rect height="320" role="cell" rx="2" ry="2" width="32" x="352" y="159">
 				<title>4</title>
 			</rect>
-			<rect height="400" role="cell" width="32" x="512" y="79">
+			<rect height="400" role="cell" rx="2" ry="2" width="32" x="512" y="79">
 				<title>5</title>
 			</rect>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
-			<rect height="160" role="cell" width="32" x="64" y="319">
+		<g fill="#e41a1c" role="row" stroke="white">
+			<rect height="160" role="cell" rx="2" ry="2" width="32" x="64" y="319">
 				<title>2</title>
 			</rect>
-			<rect height="160" role="cell" width="32" x="224" y="319">
+			<rect height="160" role="cell" rx="2" ry="2" width="32" x="224" y="319">
 				<title>2</title>
 			</rect>
-			<rect height="240" role="cell" width="32" x="384" y="239">
+			<rect height="240" role="cell" rx="2" ry="2" width="32" x="384" y="239">
 				<title>3</title>
 			</rect>
-			<rect height="80" role="cell" width="32" x="544" y="399">
+			<rect height="80" role="cell" rx="2" ry="2" width="32" x="544" y="399">
 				<title>1</title>
 			</rect>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<rect height="400" role="cell" width="32" x="96" y="79">
+			<rect height="400" role="cell" rx="2" ry="2" width="32" x="96" y="79">
 				<title>5</title>
 			</rect>
-			<rect height="240" role="cell" width="32" x="256" y="239">
+			<rect height="240" role="cell" rx="2" ry="2" width="32" x="256" y="239">
 				<title>3</title>
 			</rect>
-			<rect height="320" role="cell" width="32" x="416" y="159">
+			<rect height="320" role="cell" rx="2" ry="2" width="32" x="416" y="159">
 				<title>4</title>
 			</rect>
-			<rect height="160" role="cell" width="32" x="576" y="319">
+			<rect height="160" role="cell" rx="2" ry="2" width="32" x="576" y="319">
 				<title>2</title>
 			</rect>
 		</g>
