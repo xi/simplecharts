@@ -106,6 +106,9 @@ class BaseRenderer:
         s = ''
         s += self.line(0, 0, 0, self.height, self.ui_color)
         s += self.line(0, self.width, self.height, self.height, self.ui_color)
+        s += self.line(
+            0, self.width, self.height / 2, self.height / 2, self.ui_color, opacity=0.3
+        )
 
         if isinstance(max_value, float):
             half = max_value / 2

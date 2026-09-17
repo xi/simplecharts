@@ -8,6 +8,7 @@
 	<g role="table">
 		<line stroke="#333" x1="0" x2="0" y1="0" y2="480" />
 		<line stroke="#333" x1="0" x2="640" y1="480" y2="480" />
+		<line opacity="0.3" stroke="#333" x1="0" x2="640" y1="240" y2="240" />
 		<g aria-hidden="true">
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="480">0</text>
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="240">0.06</text>
