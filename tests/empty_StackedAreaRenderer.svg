@@ -1,4 +1,4 @@
-<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 538" xmlns="http://www.w3.org/2000/svg">
 	<style>
 		@media (prefers-color-scheme: dark) {
 			[fill="#333"] {fill: white}
@@ -15,8 +15,8 @@
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">10</text>
 		</g>
 		<g role="row">
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160" y="490">Apples</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160" y="494">Apples</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="494">Oranges</text>
 		</g>
 		<polygon fill="#377eb8" points="160,479 480,479 480,479 160,479" stroke="white" />
 		<polygon fill="#e41a1c" points="160,479 480,479 480,479 160,479" stroke="white" />

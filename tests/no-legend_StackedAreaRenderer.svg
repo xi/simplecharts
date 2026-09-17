@@ -1,4 +1,4 @@
-<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 530" xmlns="http://www.w3.org/2000/svg">
+<svg font-family="sans-serif" font-size="16" viewBox="-55 -25 700 538" xmlns="http://www.w3.org/2000/svg">
 	<style>
 		@media (prefers-color-scheme: dark) {
 			[fill="#333"] {fill: white}
@@ -15,10 +15,10 @@
 			<text dominant-baseline="middle" fill="#333" text-anchor="end" x="-4" y="0">14</text>
 		</g>
 		<g role="row">
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80" y="490">Apples</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="240" y="490">Oranges</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="490">Pears</text>
-			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="80" y="494">Apples</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="240" y="494">Oranges</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="494">Pears</text>
+			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="494">Bananas</text>
 		</g>
 		<polygon fill="#377eb8" points="80,376.1429 240,341.8571 400,341.8571 560,307.5714 560,479 400,479 240,479 80,479" stroke="white" />
 		<polygon fill="#e41a1c" points="80,307.5714 240,273.2857 400,239 560,273.2857 560,307.5714 400,341.8571 240,341.8571 80,376.1429" stroke="white" />

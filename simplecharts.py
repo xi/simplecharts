@@ -37,7 +37,7 @@ class BaseRenderer:
         self.char_width = 10
         self.char_padding = 4
         self.x_labels = self.char_width * 5
-        self.y_labels = 20
+        self.y_labels = 28
         self.y_legend = 20
 
     def get_color(self, i):
