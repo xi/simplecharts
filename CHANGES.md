@@ -1,32 +1,25 @@
-0.2.0 (2026-04-13)
-------------------
+# 0.2.0 (2026-04-13)
 
 -   tweak scaling of the y-axis
 -   support dark color scheme
 -   use (closed) polygon for stacked areas
 -   limit float precision
 
-
-0.1.1 (2025-02-28)
-------------------
+# 0.1.1 (2025-02-28)
 
 -   fix crash on all-zero data
 
-
-0.1.0 (2025-02-24)
-------------------
+# 0.1.0 (2025-02-24)
 
 -   add CLI to read CSV from stdin and write SVG to stdout
 -   support float values
 -   set font-size and font-family
 -   break legend into multiple rows if necessary
 
-0.0.2 (2019-10-02)
-------------------
+# 0.0.2 (2019-10-02)
 
--  add aria-attributes for better accessibility
+-   add aria-attributes for better accessibility
 
-0.0.1 (2019-02-20)
-------------------
+# 0.0.1 (2019-02-20)
 
 initial release
