@@ -78,15 +78,15 @@ class BaseRenderer:
         return self.element(
             'rect', content, x=x, y=y, width=width, height=height, rx=radius, ry=radius, **kwargs)
 
-    def circle(self, x, y, radius=3, title=None, **kwargs):
+    def circle(self, x, y, radius=4, title=None, **kwargs):
         content = None
         if title:
             content = self.element('title', escape(str(title)))
         return self.element('circle', content, cx=x, cy=y, r=radius, **kwargs)
 
-    def polyline(self, points, **kwargs):
+    def polyline(self, points, *, stroke_width=3, **kwargs):
         d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)
-        return self.element('polyline', points=d, **kwargs)
+        return self.element('polyline', points=d, stroke_width=stroke_width, **kwargs)
 
     def polygon(self, points, **kwargs):
         d = ' '.join(','.join(self.render_value(c) for c in p) for p in points)

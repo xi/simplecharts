@@ -21,16 +21,16 @@
 		</g>
 		<polygon fill="#377eb8" points="80,239 240,159 400,159 560,79 560,479 400,479 240,479 80,479" stroke="white" />
 		<g fill="#377eb8" role="row" stroke="white">
-			<circle cx="80" cy="239" r="3" role="cell">
+			<circle cx="80" cy="239" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="240" cy="159" r="3" role="cell">
+			<circle cx="240" cy="159" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="400" cy="159" r="3" role="cell">
+			<circle cx="400" cy="159" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="79" r="3" role="cell">
+			<circle cx="560" cy="79" r="4" role="cell">
 				<title>5</title>
 			</circle>
 		</g>

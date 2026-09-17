@@ -32,78 +32,78 @@
 			<rect fill="#ff7f00" height="10" rx="2" ry="2" width="10" x="308" y="5" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="10">Other (82)</text>
 		</g>
-		<polyline fill="none" points="80,300 240,240 400,240 560,180" stroke="#377eb8" />
-		<polyline fill="none" points="80,360 240,360 400,300 560,420" stroke="#e41a1c" />
-		<polyline fill="none" points="80,180 240,300 400,240 560,360" stroke="#4daf4a" />
-		<polyline fill="none" points="80,240 240,360 400,420 560,240" stroke="#984ea3" />
-		<polyline fill="none" points="80,120 240,240 400,180 560,360" stroke="#ff7f00" />
+		<polyline fill="none" points="80,300 240,240 400,240 560,180" stroke="#377eb8" stroke-width="3" />
+		<polyline fill="none" points="80,360 240,360 400,300 560,420" stroke="#e41a1c" stroke-width="3" />
+		<polyline fill="none" points="80,180 240,300 400,240 560,360" stroke="#4daf4a" stroke-width="3" />
+		<polyline fill="none" points="80,240 240,360 400,420 560,240" stroke="#984ea3" stroke-width="3" />
+		<polyline fill="none" points="80,120 240,240 400,180 560,360" stroke="#ff7f00" stroke-width="3" />
 		<g fill="#377eb8" role="row" stroke="white">
-			<circle cx="80" cy="300" r="3" role="cell">
+			<circle cx="80" cy="300" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="240" cy="240" r="3" role="cell">
+			<circle cx="240" cy="240" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="400" cy="240" r="3" role="cell">
+			<circle cx="400" cy="240" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="180" r="3" role="cell">
+			<circle cx="560" cy="180" r="4" role="cell">
 				<title>5</title>
 			</circle>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<circle cx="80" cy="360" r="3" role="cell">
+			<circle cx="80" cy="360" r="4" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="240" cy="360" r="3" role="cell">
+			<circle cx="240" cy="360" r="4" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="400" cy="300" r="3" role="cell">
+			<circle cx="400" cy="300" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="560" cy="420" r="3" role="cell">
+			<circle cx="560" cy="420" r="4" role="cell">
 				<title>1</title>
 			</circle>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<circle cx="80" cy="180" r="3" role="cell">
+			<circle cx="80" cy="180" r="4" role="cell">
 				<title>5</title>
 			</circle>
-			<circle cx="240" cy="300" r="3" role="cell">
+			<circle cx="240" cy="300" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="400" cy="240" r="3" role="cell">
+			<circle cx="400" cy="240" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="360" r="3" role="cell">
+			<circle cx="560" cy="360" r="4" role="cell">
 				<title>2</title>
 			</circle>
 		</g>
 		<g fill="#984ea3" role="row" stroke="white">
-			<circle cx="80" cy="240" r="3" role="cell">
+			<circle cx="80" cy="240" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="240" cy="360" r="3" role="cell">
+			<circle cx="240" cy="360" r="4" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="400" cy="420" r="3" role="cell">
+			<circle cx="400" cy="420" r="4" role="cell">
 				<title>1</title>
 			</circle>
-			<circle cx="560" cy="240" r="3" role="cell">
+			<circle cx="560" cy="240" r="4" role="cell">
 				<title>4</title>
 			</circle>
 		</g>
 		<g fill="#ff7f00" role="row" stroke="white">
-			<circle cx="80" cy="120" r="3" role="cell">
+			<circle cx="80" cy="120" r="4" role="cell">
 				<title>6</title>
 			</circle>
-			<circle cx="240" cy="240" r="3" role="cell">
+			<circle cx="240" cy="240" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="400" cy="180" r="3" role="cell">
+			<circle cx="400" cy="180" r="4" role="cell">
 				<title>5</title>
 			</circle>
-			<circle cx="560" cy="360" r="3" role="cell">
+			<circle cx="560" cy="360" r="4" role="cell">
 				<title>2</title>
 			</circle>
 		</g>

@@ -21,26 +21,26 @@
 		<polygon fill="#e41a1c" points="160,279 480,239 480,319 160,359" stroke="white" />
 		<polygon fill="#4daf4a" points="160,79 480,119 480,239 160,279" stroke="white" />
 		<g fill="#377eb8" role="row" stroke="white">
-			<circle cx="160" cy="359" r="3" role="cell">
+			<circle cx="160" cy="359" r="4" role="cell">
 				<title>0.03</title>
 			</circle>
-			<circle cx="480" cy="319" r="3" role="cell">
+			<circle cx="480" cy="319" r="4" role="cell">
 				<title>0.04</title>
 			</circle>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<circle cx="160" cy="279" r="3" role="cell">
+			<circle cx="160" cy="279" r="4" role="cell">
 				<title>0.02</title>
 			</circle>
-			<circle cx="480" cy="239" r="3" role="cell">
+			<circle cx="480" cy="239" r="4" role="cell">
 				<title>0.02</title>
 			</circle>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<circle cx="160" cy="79" r="3" role="cell">
+			<circle cx="160" cy="79" r="4" role="cell">
 				<title>0.05</title>
 			</circle>
-			<circle cx="480" cy="119" r="3" role="cell">
+			<circle cx="480" cy="119" r="4" role="cell">
 				<title>0.03</title>
 			</circle>
 		</g>

@@ -31,38 +31,38 @@
 		<polygon fill="#377eb8" points="53.3333,479 160,455 266.6667,431 373.3333,407 480,383 586.6667,359 586.6667,479 480,479 373.3333,479 266.6667,479 160,479 53.3333,479" stroke="white" />
 		<polygon fill="#e41a1c" points="53.3333,479 160,443 266.6667,383 373.3333,299 480,191 586.6667,59 586.6667,359 480,383 373.3333,407 266.6667,431 160,455 53.3333,479" stroke="white" />
 		<g fill="#377eb8" role="row" stroke="white">
-			<circle cx="53.3333" cy="479" r="3" role="cell" />
-			<circle cx="160" cy="455" r="3" role="cell">
+			<circle cx="53.3333" cy="479" r="4" role="cell" />
+			<circle cx="160" cy="455" r="4" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="266.6667" cy="431" r="3" role="cell">
+			<circle cx="266.6667" cy="431" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="373.3333" cy="407" r="3" role="cell">
+			<circle cx="373.3333" cy="407" r="4" role="cell">
 				<title>6</title>
 			</circle>
-			<circle cx="480" cy="383" r="3" role="cell">
+			<circle cx="480" cy="383" r="4" role="cell">
 				<title>8</title>
 			</circle>
-			<circle cx="586.6667" cy="359" r="3" role="cell">
+			<circle cx="586.6667" cy="359" r="4" role="cell">
 				<title>10</title>
 			</circle>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<circle cx="53.3333" cy="479" r="3" role="cell" />
-			<circle cx="160" cy="443" r="3" role="cell">
+			<circle cx="53.3333" cy="479" r="4" role="cell" />
+			<circle cx="160" cy="443" r="4" role="cell">
 				<title>1</title>
 			</circle>
-			<circle cx="266.6667" cy="383" r="3" role="cell">
+			<circle cx="266.6667" cy="383" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="373.3333" cy="299" r="3" role="cell">
+			<circle cx="373.3333" cy="299" r="4" role="cell">
 				<title>9</title>
 			</circle>
-			<circle cx="480" cy="191" r="3" role="cell">
+			<circle cx="480" cy="191" r="4" role="cell">
 				<title>16</title>
 			</circle>
-			<circle cx="586.6667" cy="59" r="3" role="cell">
+			<circle cx="586.6667" cy="59" r="4" role="cell">
 				<title>25</title>
 			</circle>
 		</g>

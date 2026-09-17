@@ -28,48 +28,48 @@
 			<rect fill="#4daf4a" height="10" rx="2" ry="2" width="10" x="592" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="606" y="-10">Joe</text>
 		</g>
-		<polyline fill="none" points="80,240 240,160 400,160 560,80" stroke="#377eb8" />
-		<polyline fill="none" points="80,320 240,320 400,240 560,400" stroke="#e41a1c" />
-		<polyline fill="none" points="80,80 240,240 400,160 560,320" stroke="#4daf4a" />
+		<polyline fill="none" points="80,240 240,160 400,160 560,80" stroke="#377eb8" stroke-width="3" />
+		<polyline fill="none" points="80,320 240,320 400,240 560,400" stroke="#e41a1c" stroke-width="3" />
+		<polyline fill="none" points="80,80 240,240 400,160 560,320" stroke="#4daf4a" stroke-width="3" />
 		<g fill="#377eb8" role="row" stroke="white">
-			<circle cx="80" cy="240" r="3" role="cell">
+			<circle cx="80" cy="240" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="240" cy="160" r="3" role="cell">
+			<circle cx="240" cy="160" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="400" cy="160" r="3" role="cell">
+			<circle cx="400" cy="160" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="80" r="3" role="cell">
+			<circle cx="560" cy="80" r="4" role="cell">
 				<title>5</title>
 			</circle>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<circle cx="80" cy="320" r="3" role="cell">
+			<circle cx="80" cy="320" r="4" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="240" cy="320" r="3" role="cell">
+			<circle cx="240" cy="320" r="4" role="cell">
 				<title>2</title>
 			</circle>
-			<circle cx="400" cy="240" r="3" role="cell">
+			<circle cx="400" cy="240" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="560" cy="400" r="3" role="cell">
+			<circle cx="560" cy="400" r="4" role="cell">
 				<title>1</title>
 			</circle>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<circle cx="80" cy="80" r="3" role="cell">
+			<circle cx="80" cy="80" r="4" role="cell">
 				<title>5</title>
 			</circle>
-			<circle cx="240" cy="240" r="3" role="cell">
+			<circle cx="240" cy="240" r="4" role="cell">
 				<title>3</title>
 			</circle>
-			<circle cx="400" cy="160" r="3" role="cell">
+			<circle cx="400" cy="160" r="4" role="cell">
 				<title>4</title>
 			</circle>
-			<circle cx="560" cy="320" r="3" role="cell">
+			<circle cx="560" cy="320" r="4" role="cell">
 				<title>2</title>
 			</circle>
 		</g>
