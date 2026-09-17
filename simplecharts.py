@@ -11,7 +11,7 @@ def round_max(value, headroom=1.1):
     if value <= 0:
         return 10
     v = value * headroom / 2
-    tail = 10 ** math.floor(math.log(v, 10))
+    tail = 10 ** math.floor(math.log10(v))
     if v / tail < 1.5:
         if tail >= 10:
             tail //= 10
