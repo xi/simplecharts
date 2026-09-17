@@ -20,16 +20,16 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
 		</g>
 		<g fill="#377eb8" role="row" stroke="white">
-			<rect height="240" role="cell" width="53.3333" x="53.3333" y="239">
+			<rect height="240" role="cell" rx="2" ry="2" width="53.3333" x="53.3333" y="239">
 				<title>3</title>
 			</rect>
-			<rect height="320" role="cell" width="53.3333" x="213.3333" y="159">
+			<rect height="320" role="cell" rx="2" ry="2" width="53.3333" x="213.3333" y="159">
 				<title>4</title>
 			</rect>
-			<rect height="320" role="cell" width="53.3333" x="373.3333" y="159">
+			<rect height="320" role="cell" rx="2" ry="2" width="53.3333" x="373.3333" y="159">
 				<title>4</title>
 			</rect>
-			<rect height="400" role="cell" width="53.3333" x="533.3333" y="79">
+			<rect height="400" role="cell" rx="2" ry="2" width="53.3333" x="533.3333" y="79">
 				<title>5</title>
 			</rect>
 		</g>

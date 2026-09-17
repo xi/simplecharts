@@ -20,16 +20,16 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
 		</g>
 		<g aria-hidden="true">
-			<rect fill="none" height="40" stroke="#333" width="530" x="110" y="-20" />
-			<rect fill="#377eb8" height="10" width="10" x="114" y="-15" />
+			<rect fill="none" height="40" rx="2" ry="2" stroke="#333" width="530" x="110" y="-20" />
+			<rect fill="#377eb8" height="10" rx="2" ry="2" width="10" x="114" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="128" y="-10">Monozygotic (431)</text>
-			<rect fill="#e41a1c" height="10" width="10" x="308" y="-15" />
+			<rect fill="#e41a1c" height="10" rx="2" ry="2" width="10" x="308" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="-10">Dizygotic (464)</text>
-			<rect fill="#4daf4a" height="10" width="10" x="482" y="-15" />
+			<rect fill="#4daf4a" height="10" rx="2" ry="2" width="10" x="482" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="496" y="-10">Trizygotic (0)</text>
-			<rect fill="#984ea3" height="10" width="10" x="114" y="5" />
+			<rect fill="#984ea3" height="10" rx="2" ry="2" width="10" x="114" y="5" />
 			<text dominant-baseline="middle" fill="#333" x="128" y="10">Quadrizygotic (0)</text>
-			<rect fill="#ff7f00" height="10" width="10" x="308" y="5" />
+			<rect fill="#ff7f00" height="10" rx="2" ry="2" width="10" x="308" y="5" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="10">Other (82)</text>
 		</g>
 		<polygon fill="#377eb8" points="80,413.5455 240,391.7273 400,391.7273 560,369.9091 560,479 400,479 240,479 80,479" stroke="white" />

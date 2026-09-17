@@ -71,12 +71,12 @@ class BaseRenderer:
         return self.element(
             'text', escape(str(s)), x=x, y=y, fill=self.ui_color, **kwargs)
 
-    def rect(self, x, y, width, height, title=None, **kwargs):
+    def rect(self, x, y, width, height, title=None, radius=2, **kwargs):
         content = None
         if title:
             content = self.element('title', escape(str(title)))
         return self.element(
-            'rect', content, x=x, y=y, width=width, height=height, **kwargs)
+            'rect', content, x=x, y=y, width=width, height=height, rx=radius, ry=radius, **kwargs)
 
     def circle(self, x, y, radius=3, title=None, **kwargs):
         content = None

@@ -18,16 +18,16 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
 		</g>
 		<g fill="#377eb8" role="row" stroke="white">
-			<rect height="0" role="cell" width="64" x="64" y="479" />
-			<rect height="0" role="cell" width="64" x="384" y="479" />
+			<rect height="0" role="cell" rx="2" ry="2" width="64" x="64" y="479" />
+			<rect height="0" role="cell" rx="2" ry="2" width="64" x="384" y="479" />
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<rect height="0" role="cell" width="64" x="128" y="479" />
-			<rect height="0" role="cell" width="64" x="448" y="479" />
+			<rect height="0" role="cell" rx="2" ry="2" width="64" x="128" y="479" />
+			<rect height="0" role="cell" rx="2" ry="2" width="64" x="448" y="479" />
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<rect height="0" role="cell" width="64" x="192" y="479" />
-			<rect height="0" role="cell" width="64" x="512" y="479" />
+			<rect height="0" role="cell" rx="2" ry="2" width="64" x="192" y="479" />
+			<rect height="0" role="cell" rx="2" ry="2" width="64" x="512" y="479" />
 		</g>
 	</g>
 </svg>

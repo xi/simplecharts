@@ -18,26 +18,26 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
 		</g>
 		<g fill="#377eb8" role="row" stroke="white">
-			<rect height="120" role="cell" width="106.6667" x="106.6667" y="359">
+			<rect height="120" role="cell" rx="2" ry="2" width="106.6667" x="106.6667" y="359">
 				<title>0.03</title>
 			</rect>
-			<rect height="160" role="cell" width="106.6667" x="426.6667" y="319">
+			<rect height="160" role="cell" rx="2" ry="2" width="106.6667" x="426.6667" y="319">
 				<title>0.04</title>
 			</rect>
 		</g>
 		<g fill="#e41a1c" role="row" stroke="white">
-			<rect height="80" role="cell" width="106.6667" x="106.6667" y="279">
+			<rect height="80" role="cell" rx="2" ry="2" width="106.6667" x="106.6667" y="279">
 				<title>0.02</title>
 			</rect>
-			<rect height="80" role="cell" width="106.6667" x="426.6667" y="239">
+			<rect height="80" role="cell" rx="2" ry="2" width="106.6667" x="426.6667" y="239">
 				<title>0.02</title>
 			</rect>
 		</g>
 		<g fill="#4daf4a" role="row" stroke="white">
-			<rect height="200" role="cell" width="106.6667" x="106.6667" y="79">
+			<rect height="200" role="cell" rx="2" ry="2" width="106.6667" x="106.6667" y="79">
 				<title>0.05</title>
 			</rect>
-			<rect height="120" role="cell" width="106.6667" x="426.6667" y="119">
+			<rect height="120" role="cell" rx="2" ry="2" width="106.6667" x="426.6667" y="119">
 				<title>0.03</title>
 			</rect>
 		</g>
