@@ -17,7 +17,7 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160" y="490">Apples</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
 		</g>
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<rect height="240" role="cell" width="64" x="64" y="239">
 				<title>0.03</title>
 			</rect>
@@ -25,7 +25,7 @@
 				<title>0.04</title>
 			</rect>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<rect height="160" role="cell" width="64" x="128" y="319">
 				<title>0.02</title>
 			</rect>

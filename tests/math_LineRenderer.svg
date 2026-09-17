@@ -23,14 +23,14 @@
 		</g>
 		<g aria-hidden="true">
 			<rect fill="none" height="20" stroke="#333" width="166" x="474" y="-20" />
-			<rect fill="#e41a1c" height="10" width="10" x="478" y="-15" />
+			<rect fill="#377eb8" height="10" width="10" x="478" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="492" y="-10">linear</text>
-			<rect fill="#377eb8" height="10" width="10" x="562" y="-15" />
+			<rect fill="#e41a1c" height="10" width="10" x="562" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="576" y="-10">square</text>
 		</g>
-		<polyline fill="none" points="53.3333,480 160,445.7143 266.6667,411.4286 373.3333,377.1429 480,342.8571 586.6667,308.5714" stroke="#e41a1c" />
-		<polyline fill="none" points="53.3333,480 160,462.8571 266.6667,411.4286 373.3333,325.7143 480,205.7143 586.6667,51.4286" stroke="#377eb8" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<polyline fill="none" points="53.3333,480 160,445.7143 266.6667,411.4286 373.3333,377.1429 480,342.8571 586.6667,308.5714" stroke="#377eb8" />
+		<polyline fill="none" points="53.3333,480 160,462.8571 266.6667,411.4286 373.3333,325.7143 480,205.7143 586.6667,51.4286" stroke="#e41a1c" />
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="53.3333" cy="480" r="3" role="cell" />
 			<circle cx="160" cy="445.7143" r="3" role="cell">
 				<title>2</title>
@@ -48,7 +48,7 @@
 				<title>10</title>
 			</circle>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="53.3333" cy="480" r="3" role="cell" />
 			<circle cx="160" cy="462.8571" r="3" role="cell">
 				<title>1</title>

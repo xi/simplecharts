@@ -19,10 +19,10 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="490">Pears</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
 		</g>
-		<polygon fill="#e41a1c" points="80,376.1429 240,341.8571 400,341.8571 560,307.5714 560,479 400,479 240,479 80,479" stroke="white" />
-		<polygon fill="#377eb8" points="80,307.5714 240,273.2857 400,239 560,273.2857 560,307.5714 400,341.8571 240,341.8571 80,376.1429" stroke="white" />
+		<polygon fill="#377eb8" points="80,376.1429 240,341.8571 400,341.8571 560,307.5714 560,479 400,479 240,479 80,479" stroke="white" />
+		<polygon fill="#e41a1c" points="80,307.5714 240,273.2857 400,239 560,273.2857 560,307.5714 400,341.8571 240,341.8571 80,376.1429" stroke="white" />
 		<polygon fill="#4daf4a" points="80,136.1429 240,170.4286 400,101.8571 560,204.7143 560,273.2857 400,239 240,273.2857 80,307.5714" stroke="white" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="80" cy="376.1429" r="3" role="cell">
 				<title>3</title>
 			</circle>
@@ -36,7 +36,7 @@
 				<title>5</title>
 			</circle>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="80" cy="307.5714" r="3" role="cell">
 				<title>2</title>
 			</circle>

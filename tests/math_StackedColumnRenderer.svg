@@ -23,12 +23,12 @@
 		</g>
 		<g aria-hidden="true">
 			<rect fill="none" height="20" stroke="#333" width="166" x="474" y="-20" />
-			<rect fill="#e41a1c" height="10" width="10" x="478" y="-15" />
+			<rect fill="#377eb8" height="10" width="10" x="478" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="492" y="-10">linear</text>
-			<rect fill="#377eb8" height="10" width="10" x="562" y="-15" />
+			<rect fill="#e41a1c" height="10" width="10" x="562" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="576" y="-10">square</text>
 		</g>
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<rect height="0" role="cell" width="35.5556" x="35.5556" y="479" />
 			<rect height="24" role="cell" width="35.5556" x="142.2222" y="455">
 				<title>2</title>
@@ -46,7 +46,7 @@
 				<title>10</title>
 			</rect>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<rect height="0" role="cell" width="35.5556" x="35.5556" y="479" />
 			<rect height="12" role="cell" width="35.5556" x="142.2222" y="443">
 				<title>1</title>

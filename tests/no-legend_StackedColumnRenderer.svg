@@ -19,7 +19,7 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="490">Pears</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
 		</g>
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<rect height="102.8571" role="cell" width="53.3333" x="53.3333" y="376.1429">
 				<title>3</title>
 			</rect>
@@ -33,7 +33,7 @@
 				<title>5</title>
 			</rect>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<rect height="68.5714" role="cell" width="53.3333" x="53.3333" y="307.5714">
 				<title>2</title>
 			</rect>

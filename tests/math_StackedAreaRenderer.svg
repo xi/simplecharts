@@ -23,14 +23,14 @@
 		</g>
 		<g aria-hidden="true">
 			<rect fill="none" height="20" stroke="#333" width="166" x="474" y="-20" />
-			<rect fill="#e41a1c" height="10" width="10" x="478" y="-15" />
+			<rect fill="#377eb8" height="10" width="10" x="478" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="492" y="-10">linear</text>
-			<rect fill="#377eb8" height="10" width="10" x="562" y="-15" />
+			<rect fill="#e41a1c" height="10" width="10" x="562" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="576" y="-10">square</text>
 		</g>
-		<polygon fill="#e41a1c" points="53.3333,479 160,455 266.6667,431 373.3333,407 480,383 586.6667,359 586.6667,479 480,479 373.3333,479 266.6667,479 160,479 53.3333,479" stroke="white" />
-		<polygon fill="#377eb8" points="53.3333,479 160,443 266.6667,383 373.3333,299 480,191 586.6667,59 586.6667,359 480,383 373.3333,407 266.6667,431 160,455 53.3333,479" stroke="white" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<polygon fill="#377eb8" points="53.3333,479 160,455 266.6667,431 373.3333,407 480,383 586.6667,359 586.6667,479 480,479 373.3333,479 266.6667,479 160,479 53.3333,479" stroke="white" />
+		<polygon fill="#e41a1c" points="53.3333,479 160,443 266.6667,383 373.3333,299 480,191 586.6667,59 586.6667,359 480,383 373.3333,407 266.6667,431 160,455 53.3333,479" stroke="white" />
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="53.3333" cy="479" r="3" role="cell" />
 			<circle cx="160" cy="455" r="3" role="cell">
 				<title>2</title>
@@ -48,7 +48,7 @@
 				<title>10</title>
 			</circle>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="53.3333" cy="479" r="3" role="cell" />
 			<circle cx="160" cy="443" r="3" role="cell">
 				<title>1</title>

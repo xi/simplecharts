@@ -4,7 +4,7 @@ import math
 import sys
 from xml.sax.saxutils import escape
 
-COLORS = ['#e41a1c', '#377eb8', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
+COLORS = ['#377eb8', '#e41a1c', '#4daf4a', '#984ea3', '#ff7f00', '#ffff33']
 
 
 def round_max(value, headroom=1.1):

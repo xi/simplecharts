@@ -17,14 +17,14 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160" y="490">Apples</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
 		</g>
-		<polyline fill="none" points="160,480 480,480" stroke="#e41a1c" />
 		<polyline fill="none" points="160,480 480,480" stroke="#377eb8" />
+		<polyline fill="none" points="160,480 480,480" stroke="#e41a1c" />
 		<polyline fill="none" points="160,480 480,480" stroke="#4daf4a" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="160" cy="480" r="3" role="cell" />
 			<circle cx="480" cy="480" r="3" role="cell" />
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="160" cy="480" r="3" role="cell" />
 			<circle cx="480" cy="480" r="3" role="cell" />
 		</g>

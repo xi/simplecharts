@@ -21,9 +21,9 @@
 		</g>
 		<g aria-hidden="true">
 			<rect fill="none" height="40" stroke="#333" width="530" x="110" y="-20" />
-			<rect fill="#e41a1c" height="10" width="10" x="114" y="-15" />
+			<rect fill="#377eb8" height="10" width="10" x="114" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="128" y="-10">Monozygotic (431)</text>
-			<rect fill="#377eb8" height="10" width="10" x="308" y="-15" />
+			<rect fill="#e41a1c" height="10" width="10" x="308" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="-10">Dizygotic (464)</text>
 			<rect fill="#4daf4a" height="10" width="10" x="482" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="496" y="-10">Trizygotic (0)</text>
@@ -32,12 +32,12 @@
 			<rect fill="#ff7f00" height="10" width="10" x="308" y="5" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="10">Other (82)</text>
 		</g>
-		<polygon fill="#e41a1c" points="80,413.5455 240,391.7273 400,391.7273 560,369.9091 560,479 400,479 240,479 80,479" stroke="white" />
-		<polygon fill="#377eb8" points="80,369.9091 240,348.0909 400,326.2727 560,348.0909 560,369.9091 400,391.7273 240,391.7273 80,413.5455" stroke="white" />
+		<polygon fill="#377eb8" points="80,413.5455 240,391.7273 400,391.7273 560,369.9091 560,479 400,479 240,479 80,479" stroke="white" />
+		<polygon fill="#e41a1c" points="80,369.9091 240,348.0909 400,326.2727 560,348.0909 560,369.9091 400,391.7273 240,391.7273 80,413.5455" stroke="white" />
 		<polygon fill="#4daf4a" points="80,260.8182 240,282.6364 400,239 560,304.4545 560,348.0909 400,326.2727 240,348.0909 80,369.9091" stroke="white" />
 		<polygon fill="#984ea3" points="80,173.5455 240,239 400,217.1818 560,217.1818 560,304.4545 400,239 240,282.6364 80,260.8182" stroke="white" />
 		<polygon fill="#ff7f00" points="80,42.6364 240,151.7273 400,108.0909 560,173.5455 560,217.1818 400,217.1818 240,239 80,173.5455" stroke="white" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="80" cy="413.5455" r="3" role="cell">
 				<title>3</title>
 			</circle>
@@ -51,7 +51,7 @@
 				<title>5</title>
 			</circle>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="80" cy="369.9091" r="3" role="cell">
 				<title>2</title>
 			</circle>

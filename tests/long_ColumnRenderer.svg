@@ -21,9 +21,9 @@
 		</g>
 		<g aria-hidden="true">
 			<rect fill="none" height="40" stroke="#333" width="530" x="110" y="-20" />
-			<rect fill="#e41a1c" height="10" width="10" x="114" y="-15" />
+			<rect fill="#377eb8" height="10" width="10" x="114" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="128" y="-10">Monozygotic (431)</text>
-			<rect fill="#377eb8" height="10" width="10" x="308" y="-15" />
+			<rect fill="#e41a1c" height="10" width="10" x="308" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="-10">Dizygotic (464)</text>
 			<rect fill="#4daf4a" height="10" width="10" x="482" y="-15" />
 			<text dominant-baseline="middle" fill="#333" x="496" y="-10">Trizygotic (0)</text>
@@ -32,7 +32,7 @@
 			<rect fill="#ff7f00" height="10" width="10" x="308" y="5" />
 			<text dominant-baseline="middle" fill="#333" x="322" y="10">Other (82)</text>
 		</g>
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<rect height="180" role="cell" width="22.8571" x="22.8571" y="299">
 				<title>3</title>
 			</rect>
@@ -46,7 +46,7 @@
 				<title>5</title>
 			</rect>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<rect height="120" role="cell" width="22.8571" x="45.7143" y="359">
 				<title>2</title>
 			</rect>

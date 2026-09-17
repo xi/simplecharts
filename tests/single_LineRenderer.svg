@@ -19,8 +19,8 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="400" y="490">Pears</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="560" y="490">Bananas</text>
 		</g>
-		<polyline fill="none" points="80,240 240,160 400,160 560,80" stroke="#e41a1c" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<polyline fill="none" points="80,240 240,160 400,160 560,80" stroke="#377eb8" />
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="80" cy="240" r="3" role="cell">
 				<title>3</title>
 			</circle>

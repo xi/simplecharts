@@ -17,10 +17,10 @@
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="160" y="490">Apples</text>
 			<text dominant-baseline="middle" fill="#333" role="columnheader" text-anchor="middle" x="480" y="490">Oranges</text>
 		</g>
-		<polygon fill="#e41a1c" points="160,359 480,319 480,479 160,479" stroke="white" />
-		<polygon fill="#377eb8" points="160,279 480,239 480,319 160,359" stroke="white" />
+		<polygon fill="#377eb8" points="160,359 480,319 480,479 160,479" stroke="white" />
+		<polygon fill="#e41a1c" points="160,279 480,239 480,319 160,359" stroke="white" />
 		<polygon fill="#4daf4a" points="160,79 480,119 480,239 160,279" stroke="white" />
-		<g fill="#e41a1c" role="row" stroke="white">
+		<g fill="#377eb8" role="row" stroke="white">
 			<circle cx="160" cy="359" r="3" role="cell">
 				<title>0.03</title>
 			</circle>
@@ -28,7 +28,7 @@
 				<title>0.04</title>
 			</circle>
 		</g>
-		<g fill="#377eb8" role="row" stroke="white">
+		<g fill="#e41a1c" role="row" stroke="white">
 			<circle cx="160" cy="279" r="3" role="cell">
 				<title>0.02</title>
 			</circle>
