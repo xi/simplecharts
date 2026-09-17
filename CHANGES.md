@@ -1,3 +1,7 @@
+# 0.3.0 (2026-09-17)
+
+-   tweak visual appearance
+
 # 0.2.0 (2026-04-13)
 
 -   tweak scaling of the y-axis
